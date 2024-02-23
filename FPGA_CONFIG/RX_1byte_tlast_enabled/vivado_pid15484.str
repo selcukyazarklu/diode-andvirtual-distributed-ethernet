@@ -1,0 +1,834 @@
+/*
+
+Xilinx Vivado v2020.2 (64-bit) [Major: 2020, Minor: 2]
+SW Build: 3064766 on Wed Nov 18 09:12:45 MST 2020
+IP Build: 3064653 on Wed Nov 18 14:17:31 MST 2020
+
+Process ID (PID): 15484
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Fri May 14 21:19:33 EET 2021
+Time zone: 	Eastern European Time (Asia/Istanbul)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1920x1200
+Screen resolution (DPI): 100
+Available screens: 2
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.2 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2
+Java executable location: 	C:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	user
+User home directory: C:/Users/user
+User working directory: C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled
+User country: 	TR
+User language: 	tr
+User locale: 	tr_TR
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.2
+RDI_DATADIR: C:/Xilinx/Vivado/2020.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.2/bin
+
+Vivado preferences file location: C:/Users/user/AppData/Roaming/Xilinx/Vivado/2020.2/vivado.xml
+Vivado preferences directory: C:/Users/user/AppData/Roaming/Xilinx/Vivado/2020.2/
+Vivado layouts directory: C:/Users/user/AppData/Roaming/Xilinx/Vivado/2020.2/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/vivado.log
+Vivado journal file location: 	C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/vivado.jou
+Engine tmp dir: 	C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/.Xil/Vivado-15484-MSI
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.2
+XILINX_SDK: C:/Xilinx/Vitis/2020.2
+XILINX_VITIS: C:/Xilinx/Vitis/2020.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.2
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,150 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 77 MB (+78645kb) [00:00:04]
+// [Engine Memory]: 1,150 MB (+1054644kb) [00:00:04]
+// bz (cr):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\user\Desktop\mayis\RX_1byte_tlast_enabled\alex.xpr. Version: Vivado v2020.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,150 MB. GUI used memory: 54 MB. Current time: 5/14/21, 9:19:34 PM EET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 113 MB (+32862kb) [00:00:11]
+// WARNING: HEventQueue.dispatchEvent() is taking  2500 ms.
+// Tcl Message: open_project C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/user/Desktop/nisan/RX_1byte_tlast_enabled' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 1215.832 ; gain = 53.777 
+// [GUI Memory]: 121 MB (+2938kb) [00:00:14]
+// [Engine Memory]: 1,214 MB (+6821kb) [00:00:14]
+// Project name: alex; location: C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled; part: xc7k325tfbv676-2
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// [GUI Memory]: 137 MB (+10544kb) [00:00:16]
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton("OptionPane.button", "OK"); // JButton
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+// bz (cr):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 6 
+// Tcl Message: [Fri May 14 21:19:56 2021] Launched impl_1... Run output will be captured here: C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 143 seconds
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // i
+// [GUI Memory]: 145 MB (+644kb) [00:02:56]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, aurora_8b10b_0]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, aurora_8b10b_0]", 1, true, false, false, false, false, true); // D - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// TclEventType: LOAD_FEATURE
+// N (cr):  Re-customize IP : addNotify
+// [Engine Memory]: 1,386 MB (+116693kb) [00:02:57]
+// r (cr): Re-customize IP: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1052 ms.
+dismissDialog("Re-customize IP"); // N
+// HMemoryUtils.trashcanNow. Engine heap size: 1,436 MB. GUI used memory: 87 MB. Current time: 5/14/21, 9:22:24 PM EET
+selectComboBox("Lane Width (Bytes) (C_LANE_WIDTH)", "2", 0); // E
+selectComboBox("Lane Width (Bytes) (C_LANE_WIDTH)", "4", 1); // E
+selectCheckBox(PAResourceEtoH.HACGCIPSymbol_SHOW_DISABLED_PORTS, "Show disabled ports", false); // g: FALSE
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Re-customize IP"); // r
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, aurora_8b10b_0]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, aurora_8b10b_0]", 1, true, false, false, false, false, true); // D - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cr): Re-customize IP: addNotify
+selectComboBox("Interface (Interface_Mode)", "Framing", 0); // E
+// Elapsed time: 24 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Re-customize IP"); // r
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list CONFIG.Interface_Mode {Framing}] [get_ips aurora_8b10b_0] 
+// TclEventType: FILE_SET_CHANGE
+// aI (cr): Generate Output Products: addNotify
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a
+// bz (cr):  Managing Output Products : addNotify
+// Tcl Message: generate_target all [get_files  C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/ip/aurora_8b10b_0/aurora_8b10b_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'aurora_8b10b_0'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'aurora_8b10b_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'aurora_8b10b_0'... 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'aurora_8b10b_0'... 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all aurora_8b10b_0] } 
+// Tcl Message: export_ip_user_files -of_objects [get_files C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/ip/aurora_8b10b_0/aurora_8b10b_0.xci] -no_script -sync -force -quiet 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run aurora_8b10b_0_synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs aurora_8b10b_0_synth_1 -jobs 6 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri May 14 21:23:17 2021] Launched aurora_8b10b_0_synth_1... Run output will be captured here: C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.runs/aurora_8b10b_0_synth_1/runme.log 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// [Engine Memory]: 1,456 MB (+707kb) [00:03:58]
+// Elapsed time: 11 seconds
+selectButton("OptionPane.button", "OK"); // JButton
+// HMemoryUtils.trashcanNow. Engine heap size: 1,456 MB. GUI used memory: 89 MB. Current time: 5/14/21, 9:23:24 PM EET
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 53 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fpga (fpga.v)]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fpga (fpga.v)]", 1, true, false, false, false, false, true); // D - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fpga (fpga.v), frame_chk_axi_to_ll_pdu_i : aurora_8b10b_0_AXI_TO_LL_EXDES (aurora_8b10b_0_AXI_TO_LL_EXDES.v)]", 7, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fpga (fpga.v), frame_chk_axi_to_ll_pdu_i : aurora_8b10b_0_AXI_TO_LL_EXDES (aurora_8b10b_0_AXI_TO_LL_EXDES.v)]", 7, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fpga (fpga.v), frame_chk_axi_to_ll_pdu_i : aurora_8b10b_0_AXI_TO_LL_EXDES (aurora_8b10b_0_AXI_TO_LL_EXDES.v)]", 7, false, false, false, false, false, true); // D - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 1,484 MB. GUI used memory: 101 MB. Current time: 5/14/21, 9:24:24 PM EET
+// Elapsed time: 16 seconds
+selectCodeEditor("aurora_8b10b_0_AXI_TO_LL_EXDES.v", 740, 332); // bP
+selectCodeEditor("aurora_8b10b_0_AXI_TO_LL_EXDES.v", 740, 332, false, false, false, false, true); // bP - Double Click
+// Elapsed time: 150 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fpga (fpga.v), AURORA0 : aurora_8b10b_0 (aurora_8b10b_0.xci)]", 6, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fpga (fpga.v), AURORA0 : aurora_8b10b_0 (aurora_8b10b_0.xci)]", 6, false, false, false, false, false, true); // D - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cr): Re-customize IP: addNotify
+// [GUI Memory]: 159 MB (+7588kb) [00:07:45]
+// Elapsed time: 23 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Re-customize IP"); // r
+selectCodeEditor("aurora_8b10b_0_AXI_TO_LL_EXDES.v", 425, 392); // bP
+// Elapsed time: 12 seconds
+selectCodeEditor("aurora_8b10b_0_AXI_TO_LL_EXDES.v", 619, 147); // bP
+selectCodeEditor("aurora_8b10b_0_AXI_TO_LL_EXDES.v", 330, 337); // bP
+typeControlKey((HResource) null, "aurora_8b10b_0_AXI_TO_LL_EXDES.v", 'v'); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bz (cr):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bz
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 6 
+// Tcl Message: [Fri May 14 21:28:04 2021] Launched synth_1... Run output will be captured here: C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.runs/synth_1/runme.log [Fri May 14 21:28:04 2021] Launched impl_1... Run output will be captured here: C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 282 seconds
+selectCodeEditor("aurora_8b10b_0_AXI_TO_LL_EXDES.v", 251, 136); // bP
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // E
+// Elapsed time: 29 seconds
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // E
+selectCodeEditor("aurora_8b10b_0_AXI_TO_LL_EXDES.v", 170, 62); // bP
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fpga (fpga.v), frame_chk_axi_to_ll_pdu_i : aurora_8b10b_0_AXI_TO_LL_EXDES (aurora_8b10b_0_AXI_TO_LL_EXDES.v)]", 7, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fpga (fpga.v), frame_chk_axi_to_ll_pdu_i : aurora_8b10b_0_AXI_TO_LL_EXDES (aurora_8b10b_0_AXI_TO_LL_EXDES.v)]", 7, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fpga (fpga.v), frame_chk_axi_to_ll_pdu_i : aurora_8b10b_0_AXI_TO_LL_EXDES (aurora_8b10b_0_AXI_TO_LL_EXDES.v)]", 7, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fpga (fpga.v), frame_chk_axi_to_ll_pdu_i : aurora_8b10b_0_AXI_TO_LL_EXDES (aurora_8b10b_0_AXI_TO_LL_EXDES.v)]", 7, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fpga (fpga.v), core_inst : fpga_core (fpga_core.v)]", 8, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, aurora_8b10b_0_FRAME_CHECK (aurora_8b10b_0_FRAME_CHECK.v)]", 9, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, aurora_8b10b_0_FRAME_CHECK (aurora_8b10b_0_FRAME_CHECK.v)]", 9, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, aurora_8b10b_0_FRAME_CHECK (aurora_8b10b_0_FRAME_CHECK.v)]", 9, false, false, false, false, false, true); // D - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 1,496 MB. GUI used memory: 104 MB. Current time: 5/14/21, 9:54:25 PM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,496 MB. GUI used memory: 94 MB. Current time: 5/14/21, 10:24:25 PM EET
+// Elapsed time: 3879 seconds
+selectCodeEditor("aurora_8b10b_0_FRAME_CHECK.v", 271, 281); // bP
+// Elapsed time: 88 seconds
+selectCodeEditor("aurora_8b10b_0_FRAME_CHECK.v", 239, 159); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fpga.v", 1); // m
+selectCodeEditor("fpga.v", 287, 103); // bP
+selectCodeEditor("fpga.v", 305, 88); // bP
+// Elapsed time: 103 seconds
+selectCodeEditor("fpga.v", 572, 144); // bP
+typeControlKey((HResource) null, "fpga.v", 'v'); // bP
+selectCodeEditor("fpga.v", 72, 161); // bP
+// Elapsed time: 10 seconds
+selectCodeEditor("fpga.v", 579, 182); // bP
+typeControlKey((HResource) null, "fpga.v", 'v'); // bP
+typeControlKey(null, null, 'z');
+selectCodeEditor("fpga.v", 459, 160); // bP
+typeControlKey((HResource) null, "fpga.v", 'v'); // bP
+selectCodeEditor("fpga.v", 38, 233); // bP
+// Elapsed time: 25 seconds
+selectCodeEditor("fpga.v", 622, 187); // bP
+selectCodeEditor("fpga.v", 609, 184); // bP
+typeControlKey((HResource) null, "fpga.v", 'v'); // bP
+// Elapsed time: 125 seconds
+selectCodeEditor("fpga.v", 174, 367); // bP
+typeControlKey((HResource) null, "fpga.v", 'v'); // bP
+selectCodeEditor("fpga.v", 174, 383); // bP
+typeControlKey((HResource) null, "fpga.v", 'v'); // bP
+selectCodeEditor("fpga.v", 125, 298); // bP
+typeControlKey((HResource) null, "fpga.v", 'v'); // bP
+selectCodeEditor("fpga.v", 158, 322); // bP
+selectCodeEditor("fpga.v", 158, 322, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "fpga.v", 'v'); // bP
+selectCodeEditor("fpga.v", 108, 331); // bP
+typeControlKey((HResource) null, "fpga.v", 'v'); // bP
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "fpga.v", 'v'); // bP
+// Elapsed time: 27 seconds
+selectCodeEditor("fpga.v", 403, 371); // bP
+selectCodeEditor("fpga.v", 353, 384); // bP
+typeControlKey((HResource) null, "fpga.v", 'v'); // bP
+selectCodeEditor("fpga.v", 70, 397); // bP
+selectCodeEditor("fpga.v", 322, 400); // bP
+selectCodeEditor("fpga.v", 381, 353); // bP
+selectCodeEditor("fpga.v", 55, 423); // bP
+// Elapsed time: 31 seconds
+selectCodeEditor("fpga.v", 207, 113); // bP
+// Elapsed time: 21 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "soft_err_i"); // l
+selectCodeEditor("fpga.v", 30, 257); // bP
+typeControlKey((HResource) null, "fpga.v", 'v'); // bP
+selectCodeEditor("fpga.v", 21, 263); // bP
+selectCodeEditor("fpga.v", 20, 266); // bP
+selectCodeEditor("fpga.v", 20, 266, false, false, false, false, true); // bP - Double Click
+// Elapsed time: 20 seconds
+selectCodeEditor("fpga.v", 218, 196); // bP
+typeControlKey((HResource) null, "fpga.v", 'v'); // bP
+selectCodeEditor("fpga.v", 210, 183); // bP
+// Elapsed time: 64 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "rx_data_i"); // l
+selectCodeEditor("fpga.v", 235, 34); // bP
+selectCodeEditor("fpga.v", 25, 240); // bP
+typeControlKey((HResource) null, "fpga.v", 'v'); // bP
+selectCodeEditor("fpga.v", 365, 167); // bP
+selectCodeEditor("fpga.v", 159, 194); // bP
+selectCodeEditor("fpga.v", 159, 194, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "fpga.v", 'c'); // bP
+// Elapsed time: 21 seconds
+selectCodeEditor("fpga.v", 197, 193); // bP
+typeControlKey((HResource) null, "fpga.v", 'v'); // bP
+selectCodeEditor("fpga.v", 218, 378); // bP
+selectCodeEditor("fpga.v", 20, 239); // bP
+typeControlKey((HResource) null, "fpga.v", 'v'); // bP
+selectCodeEditor("fpga.v", 131, 190); // bP
+selectCodeEditor("fpga.v", 130, 170); // bP
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (cr): Run Synthesis: addNotify
+selectCheckBox(RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", true); // g: TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// am (cr): Save Project: addNotify
+dismissDialog("Run Synthesis"); // A
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+// bz (cr):  Save Constraints : addNotify
+// bz (cr):  Resetting Runs : addNotify
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // am
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bz (cr):  Starting Design Runs : addNotify
+// Tcl Message: launch_runs synth_1 -jobs 6 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri May 14 22:49:05 2021] Launched synth_1... Run output will be captured here: C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 5 seconds
+dismissDialog("Starting Design Runs"); // bz
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ag (cr): Synthesis Failed: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 1,496 MB. GUI used memory: 94 MB. Current time: 5/14/21, 10:54:25 PM EET
+// Elapsed time: 444 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ag
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-976] rx_tvalid_i has already been declared [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/fpga.v:134]. ]", 2, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\user\Desktop\mayis\RX_1byte_tlast_enabled\alex.srcs\sources_1\fpga.v;-;;-;16;-;line;-;134;-;;-;16;-;"); // ah
+selectCodeEditor("fpga.v", 182, 325); // bP
+selectCodeEditor("fpga.v", 182, 325, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "fpga.v", 'c'); // bP
+// Elapsed time: 12 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "rx_tvalid_i"); // l
+selectCodeEditor("fpga.v", 233, 280); // bP
+selectCodeEditor("fpga.v", 260, 279); // bP
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-2654] second declaration of rx_tvalid_i ignored [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/fpga.v:134]. ]", 3, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\user\Desktop\mayis\RX_1byte_tlast_enabled\alex.srcs\sources_1\fpga.v;-;;-;16;-;line;-;134;-;;-;16;-;"); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-1031] FRAME_ERR is not declared [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/fpga.v:459]. ]", 4, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\user\Desktop\mayis\RX_1byte_tlast_enabled\alex.srcs\sources_1\fpga.v;-;;-;16;-;line;-;459;-;;-;16;-;"); // ah
+selectCodeEditor("fpga.v", 93, 158); // bP
+selectCodeEditor("fpga.v", 93, 158, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "fpga.v", 'c'); // bP
+// Elapsed time: 15 seconds
+selectCodeEditor("fpga.v", 38, 228); // bP
+typeControlKey((HResource) null, "fpga.v", 'v'); // bP
+selectCodeEditor("fpga.v", 12, 216); // bP
+selectCodeEditor("fpga.v", 12, 216, false, false, false, false, true); // bP - Double Click
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// am (cr): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+// bz (cr):  Save Constraints : addNotify
+// bz (cr):  Resetting Runs : addNotify
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // am
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bz (cr):  Starting Design Runs : addNotify
+// Tcl Message: launch_runs synth_1 -jobs 6 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri May 14 22:57:32 2021] Launched synth_1... Run output will be captured here: C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bz
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ag (cr): Synthesis Completed: addNotify
+// Elapsed time: 83 seconds
+selectCheckBox(RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", true); // g: TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bz (cr):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 6 
+// Tcl Message: [Fri May 14 22:58:57 2021] Launched impl_1... Run output will be captured here: C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bz
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ag (cr): Implementation Completed: addNotify
+// Elapsed time: 91 seconds
+selectCheckBox(RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", true); // g: TRUE
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Implementation Completed"); // ag
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 6 
+// Tcl Message: [Fri May 14 23:00:32 2021] Launched impl_1... Run output will be captured here: C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 32 seconds
+selectCodeEditor("fpga.v", 141, 381); // bP
+selectCodeEditor("fpga.v", 141, 381, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "fpga.v", 'c'); // bP
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 24 seconds
+selectCodeEditor("fpga.v", 98, 416); // bP
+selectCodeEditor("fpga.v", 98, 416, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "fpga.v", 'c'); // bP
+selectCodeEditor("fpga.v", 167, 251); // bP
+selectCodeEditor("fpga.v", 167, 251, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("fpga.v", 169, 243, false, false, false, true, false); // bP - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ak
+selectCodeEditor("fpga.v", 145, 382); // bP
+selectCodeEditor("fpga.v", 145, 382, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "fpga.v", 'v'); // bP
+selectCodeEditor("fpga.v", 223, 383); // bP
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// am (cr): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+// bz (cr):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // am
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "OK"); // JButton
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+// bz (cr):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 6 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri May 14 23:02:03 2021] Launched impl_1... Run output will be captured here: C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 89 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bz (cr):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bz
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 6 
+// Tcl Message: [Fri May 14 23:03:34 2021] Launched synth_1... Run output will be captured here: C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.runs/synth_1/runme.log [Fri May 14 23:03:34 2021] Launched impl_1... Run output will be captured here: C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 178 seconds
+selectCodeEditor("fpga.v", 266, 398); // bP
+// HMemoryUtils.trashcanNow. Engine heap size: 1,511 MB. GUI used memory: 107 MB. Current time: 5/14/21, 11:07:00 PM EET
+// Elapsed time: 1687 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bz (cr):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw_manager 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+dismissDialog("Open Hardware Manager"); // bz
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ak
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// bz (cr):  Auto Connect : addNotify
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2020.2   **** Build date : Nov 18 2020 at 10:01:48     ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.   INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042 
+// Tcl Message: INFO: [Labtools 27-3417] Launching cs_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:   ******** Xilinx cs_server v2020.2   ****** Build date   : Nov 04 2020-00:02:56     **** Build number : 2020.2.1604437376       ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.    
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1525.578 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  4267 ms.
+// [Engine Memory]: 3,051 MB (+1595984kb) [02:15:30]
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/13724327082d01 
+// HMemoryUtils.trashcanNow. Engine heap size: 3,053 MB. GUI used memory: 110 MB. Current time: 5/14/21, 11:34:56 PM EET
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.runs/impl_1/fpga.bit} [get_hw_devices xc7k325t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7k325t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k325t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1435] Device xc7k325t (JTAG device index = 0) is not programmed (DONE status = 0). 
+// Elapsed time: 12 seconds
+dismissDialog("Auto Connect"); // bz
+// Elapsed time: 89 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Xilinx/13724327082c01 (0) ; Closed", 4, "Closed", 1, false); // t
+// [GUI Memory]: 167 MB (+256kb) [02:17:00]
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Xilinx/13724327082c01 (0) ; Closed", 4, "Closed", 1, false, false, false, false, true, false); // t - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET, "Open Target"); // ak
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET
+selectButton("OptionPane.button", "OK"); // JButton
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: close_hw_target {localhost:3121/xilinx_tcf/Xilinx/13724327082d01} 
+// Tcl Message: INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Xilinx/13724327082d01 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target {localhost:3121/xilinx_tcf/Xilinx/13724327082c01} 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/13724327082c01 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.runs/impl_1/fpga.bit} [get_hw_devices xc7k325t_0_1] 
+// Tcl Message: current_hw_device [get_hw_devices xc7k325t_0_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// bz (cr):  Open Target : addNotify
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k325t_0_1] 0] 
+// Tcl Message: INFO: [Labtools 27-1435] Device xc7k325t (JTAG device index = 0) is not programmed (DONE status = 0). 
+dismissDialog("Open Target"); // bz
+selectButton(PAResourceOtoP.ProgramDebugTab_REFRESH_DEVICE, "Refresh device"); // h
+selectMenuItem((HResource) null, "xc7k325t_0_1"); // ak
+// Run Command: PAResourceCommand.PACommandNames_REFRESH_DEVICE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// bz (cr):  Refresh Device : addNotify
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7k325t_0_1] 0] 
+// Tcl Message: INFO: [Labtools 27-1435] Device xc7k325t (JTAG device index = 0) is not programmed (DONE status = 0). 
+dismissDialog("Refresh Device"); // bz
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Xilinx/13724327082c01 (1) ; Open", 2, "xilinx_tcf/Xilinx/13724327082c01 (1)", 0, true); // t - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 23, false); // u
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7k325t_0_1"); // ak
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cr): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// bz (cr):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7k325t_0_1] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7k325t_0_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.runs/impl_1/fpga.bit} [get_hw_devices xc7k325t_0_1] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7k325t_0_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 3107.977 ; gain = 0.000 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7k325t_0_1] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 7 seconds
+dismissDialog("Program Device"); // bz
+// Elapsed time: 552 seconds
+selectCodeEditor("fpga.v", 168, 365); // bP
+selectCodeEditor("fpga.v", 168, 365, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "fpga.v", 'c'); // bP
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 23, false); // u
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7k325t_0_1"); // ak
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cr): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// bz (cr):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7k325t_0_1] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7k325t_0_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.runs/impl_1/fpga.bit} [get_hw_devices xc7k325t_0_1] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7k325t_0_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 3107.977 ; gain = 0.000 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7k325t_0_1] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 6 seconds
+dismissDialog("Program Device"); // bz
+// Elapsed time: 500 seconds
+collapseTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7k325t_0_1 (1) ; Programmed", 3); // t
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fpga (fpga.v), core_inst : fpga_core (fpga_core.v)]", 8, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fpga (fpga.v), core_inst : fpga_core (fpga_core.v), eth_axis_tx_inst : eth_axis_tx (eth_axis_tx.v)]", 11, false, false, false, false, false, true); // D - Double Click
+selectCodeEditor("fpga_core.v", 217, 429); // bP
+selectCodeEditor("fpga_core.v", 217, 429, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "fpga_core.v", 'c'); // bP
+selectCodeEditor("fpga_core.v", 103, 462); // bP
+selectCodeEditor("fpga_core.v", 103, 462, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "fpga_core.v", 'c'); // bP
+// Elapsed time: 22 seconds
+selectCodeEditor("fpga_core.v", 556, 263); // bP
+selectCodeEditor("fpga_core.v", 555, 263, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "fpga_core.v", 'c'); // bP
+selectCodeEditor("fpga_core.v", 231, 395); // bP
+typeControlKey((HResource) null, "fpga_core.v", 'v'); // bP
+selectCodeEditor("fpga_core.v", 521, 292); // bP
+selectCodeEditor("fpga_core.v", 228, 399); // bP
+selectCodeEditor("fpga_core.v", 386, 340); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bz (cr):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bz
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 6 
+// bz (cr):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri May 14 23:55:47 2021] Launched synth_1... Run output will be captured here: C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.runs/synth_1/runme.log [Fri May 14 23:55:47 2021] Launched impl_1... Run output will be captured here: C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 236 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 23, false); // u
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7k325t_0_1"); // ak
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cr): Program Device: addNotify
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// bz (cr):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7k325t_0_1] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7k325t_0_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.runs/impl_1/fpga.bit} [get_hw_devices xc7k325t_0_1] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7k325t_0_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 3107.977 ; gain = 0.000 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7k325t_0_1] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 6 seconds
+dismissDialog("Program Device"); // bz
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 23, false); // u
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7k325t_0_1"); // ak
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// [GUI Memory]: 180 MB (+4871kb) [02:40:35]
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cr): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// bz (cr):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7k325t_0_1] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7k325t_0_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.runs/impl_1/fpga.bit} [get_hw_devices xc7k325t_0_1] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7k325t_0_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 3107.977 ; gain = 0.000 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7k325t_0_1] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 6 seconds
+dismissDialog("Program Device"); // bz
+// Elapsed time: 66 seconds
+selectCodeEditor("fpga.v", 146, 214); // bP
+// HMemoryUtils.trashcanNow. Engine heap size: 3,069 MB. GUI used memory: 118 MB. Current time: 5/15/21, 12:04:56 AM EET

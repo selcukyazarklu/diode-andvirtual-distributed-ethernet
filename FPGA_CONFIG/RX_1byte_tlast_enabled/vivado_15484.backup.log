@@ -1,0 +1,326 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed May 12 21:50:36 2021
+# Process ID: 15484
+# Current directory: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18620 C:\Users\user\Desktop\nisan\alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte\alex.xpr
+# Log file: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/vivado.log
+# Journal file: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:15 . Memory (MB): peak = 1342.992 ; gain = 202.652
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+ERROR: Cannot start server on port 3042: already in use.
+
+ERROR: [Labtools 27-2220] Launch Error:
+Unable to launch local cs_server executable.
+ERROR: Cannot start server on port 3042: already in use.
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1389.211 ; gain = 0.000
+ERROR: [Common 17-39] 'connect_hw_server' failed due to earlier errors.
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/13724327082d01
+set_property PROGRAM.FILE {C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/fpga.bit} [get_hw_devices xc7k325t_0]
+current_hw_device [get_hw_devices xc7k325t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-2302] Device xc7k325t (JTAG device index = 0) is programmed with a design that has 1 IBERT core(s).
+close_hw_target {localhost:3121/xilinx_tcf/Xilinx/13724327082d01}
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Xilinx/13724327082d01
+open_hw_target {localhost:3121/xilinx_tcf/Xilinx/13724327082c01}
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/13724327082c01
+set_property PROGRAM.FILE {C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/fpga.bit} [get_hw_devices xc7k325t_0_1]
+current_hw_device [get_hw_devices xc7k325t_0_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k325t_0_1] 0]
+INFO: [Labtools 27-2302] Device xc7k325t (JTAG device index = 0) is programmed with a design that has 1 IBERT core(s).
+set_property PROBES.FILE {} [get_hw_devices xc7k325t_0_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7k325t_0_1]
+set_property PROGRAM.FILE {C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/fpga.bit} [get_hw_devices xc7k325t_0_1]
+program_hw_devices [get_hw_devices xc7k325t_0_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 2987.953 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0_1] 0]
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Vivado 12-872] Run step 'Design Initialization' is out-of-date.
+[Wed May 12 21:58:13 2021] Launched impl_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed May 12 22:00:27 2021] Launched synth_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/synth_1/runme.log
+[Wed May 12 22:00:27 2021] Launched impl_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7k325t_0_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7k325t_0_1]
+set_property PROGRAM.FILE {C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/fpga.bit} [get_hw_devices xc7k325t_0_1]
+program_hw_devices [get_hw_devices xc7k325t_0_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 3042.105 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0_1] 0]
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Vivado 12-872] Run step 'Design Initialization' is out-of-date.
+[Wed May 12 22:10:19 2021] Launched impl_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed May 12 22:11:25 2021] Launched synth_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/synth_1/runme.log
+[Wed May 12 22:11:25 2021] Launched impl_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/runme.log
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed May 12 22:14:06 2021] Launched impl_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed May 12 22:17:05 2021] Launched synth_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/synth_1/runme.log
+[Wed May 12 22:17:05 2021] Launched impl_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7k325t_0_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7k325t_0_1]
+set_property PROGRAM.FILE {C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/fpga.bit} [get_hw_devices xc7k325t_0_1]
+program_hw_devices [get_hw_devices xc7k325t_0_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 3042.105 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0_1] 0]
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Vivado 12-872] Run step 'Design Initialization' is out-of-date.
+[Wed May 12 22:31:11 2021] Launched impl_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed May 12 22:33:05 2021] Launched synth_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/synth_1/runme.log
+[Wed May 12 22:33:05 2021] Launched impl_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7k325t_0_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7k325t_0_1]
+set_property PROGRAM.FILE {C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/fpga.bit} [get_hw_devices xc7k325t_0_1]
+program_hw_devices [get_hw_devices xc7k325t_0_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 3059.965 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0_1] 0]
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Vivado 12-872] Run step 'Design Initialization' is out-of-date.
+[Wed May 12 22:39:14 2021] Launched impl_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed May 12 22:40:15 2021] Launched synth_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/synth_1/runme.log
+[Wed May 12 22:40:15 2021] Launched impl_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7k325t_0_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7k325t_0_1]
+set_property PROGRAM.FILE {C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/fpga.bit} [get_hw_devices xc7k325t_0_1]
+program_hw_devices [get_hw_devices xc7k325t_0_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 3059.965 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0_1] 0]
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Vivado 12-872] Run step 'Design Initialization' is out-of-date.
+[Wed May 12 22:51:12 2021] Launched impl_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed May 12 22:54:33 2021] Launched synth_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/synth_1/runme.log
+[Wed May 12 22:54:33 2021] Launched impl_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7k325t_0_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7k325t_0_1]
+set_property PROGRAM.FILE {C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/fpga.bit} [get_hw_devices xc7k325t_0_1]
+program_hw_devices [get_hw_devices xc7k325t_0_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 3059.965 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0_1] 0]
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed May 12 23:01:36 2021] Launched synth_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/synth_1/runme.log
+[Wed May 12 23:01:36 2021] Launched impl_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed May 12 23:03:07 2021] Launched synth_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/synth_1/runme.log
+[Wed May 12 23:03:07 2021] Launched impl_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7k325t_0_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7k325t_0_1]
+set_property PROGRAM.FILE {C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/fpga.bit} [get_hw_devices xc7k325t_0_1]
+program_hw_devices [get_hw_devices xc7k325t_0_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 3068.215 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0_1] 0]
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed May 12 23:24:15 2021] Launched synth_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/synth_1/runme.log
+[Wed May 12 23:24:15 2021] Launched impl_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7k325t_0_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7k325t_0_1]
+set_property PROGRAM.FILE {C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/fpga.bit} [get_hw_devices xc7k325t_0_1]
+program_hw_devices [get_hw_devices xc7k325t_0_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 3068.215 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0_1] 0]
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed May 12 23:30:38 2021] Launched synth_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/synth_1/runme.log
+[Wed May 12 23:30:38 2021] Launched impl_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7k325t_0_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7k325t_0_1]
+set_property PROGRAM.FILE {C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/fpga.bit} [get_hw_devices xc7k325t_0_1]
+program_hw_devices [get_hw_devices xc7k325t_0_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 3069.812 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0_1] 0]
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Vivado 12-872] Run step 'Design Initialization' is out-of-date.
+[Wed May 12 23:39:35 2021] Launched impl_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed May 12 23:40:23 2021] Launched synth_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/synth_1/runme.log
+[Wed May 12 23:40:23 2021] Launched impl_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7k325t_0_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7k325t_0_1]
+set_property PROGRAM.FILE {C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/fpga.bit} [get_hw_devices xc7k325t_0_1]
+program_hw_devices [get_hw_devices xc7k325t_0_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 3069.812 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0_1] 0]
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Vivado 12-872] Run step 'Design Initialization' is out-of-date.
+[Wed May 12 23:50:51 2021] Launched impl_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed May 12 23:51:55 2021] Launched synth_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/synth_1/runme.log
+[Wed May 12 23:51:55 2021] Launched impl_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed May 12 23:51:57 2021] Launched synth_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/synth_1/runme.log
+[Wed May 12 23:51:57 2021] Launched impl_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7k325t_0_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7k325t_0_1]
+set_property PROGRAM.FILE {C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/fpga.bit} [get_hw_devices xc7k325t_0_1]
+program_hw_devices [get_hw_devices xc7k325t_0_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 3069.812 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0_1] 0]
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed May 12 23:58:27 2021] Launched synth_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/synth_1/runme.log
+[Wed May 12 23:58:27 2021] Launched impl_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7k325t_0_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7k325t_0_1]
+set_property PROGRAM.FILE {C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/fpga.bit} [get_hw_devices xc7k325t_0_1]
+program_hw_devices [get_hw_devices xc7k325t_0_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 3081.676 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0_1] 0]
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Vivado 12-872] Run step 'Design Initialization' is out-of-date.
+[Thu May 13 00:33:27 2021] Launched impl_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu May 13 00:34:28 2021] Launched synth_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/synth_1/runme.log
+[Thu May 13 00:34:28 2021] Launched impl_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu May 13 00:35:09 2021] Launched synth_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/synth_1/runme.log
+[Thu May 13 00:35:09 2021] Launched impl_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7k325t_0_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7k325t_0_1]
+set_property PROGRAM.FILE {C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/fpga.bit} [get_hw_devices xc7k325t_0_1]
+program_hw_devices [get_hw_devices xc7k325t_0_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 3081.992 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0_1] 0]
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu May 13 00:39:54 2021] Launched synth_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/synth_1/runme.log
+[Thu May 13 00:39:54 2021] Launched impl_1...
+Run output will be captured here: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7k325t_0_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7k325t_0_1]
+set_property PROGRAM.FILE {C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/fpga.bit} [get_hw_devices xc7k325t_0_1]
+program_hw_devices [get_hw_devices xc7k325t_0_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 3081.992 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0_1] 0]
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7k325t_0_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7k325t_0_1]
+set_property PROGRAM.FILE {C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/fpga.bit} [get_hw_devices xc7k325t_0_1]
+program_hw_devices [get_hw_devices xc7k325t_0_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 3082.480 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0_1] 0]
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu May 13 01:43:22 2021...

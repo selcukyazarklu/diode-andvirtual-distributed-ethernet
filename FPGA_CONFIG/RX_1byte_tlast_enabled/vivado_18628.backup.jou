@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu May 13 01:51:31 2021
+# Process ID: 18628
+# Current directory: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16792 C:\Users\user\Desktop\nisan\alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte\alex.xpr
+# Log file: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/vivado.log
+# Journal file: C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.xpr
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/fpga.bit} [get_hw_devices xc7k325t_0]
+current_hw_device [get_hw_devices xc7k325t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k325t_0] 0]
+close_hw_target {localhost:3121/xilinx_tcf/Xilinx/13724327082d01}
+open_hw_target {localhost:3121/xilinx_tcf/Xilinx/13724327082c01}
+set_property PROGRAM.FILE {C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/fpga.bit} [get_hw_devices xc7k325t_0_1]
+current_hw_device [get_hw_devices xc7k325t_0_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k325t_0_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7k325t_0_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7k325t_0_1]
+set_property PROGRAM.FILE {C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte/alex.runs/impl_1/fpga.bit} [get_hw_devices xc7k325t_0_1]
+program_hw_devices [get_hw_devices xc7k325t_0_1]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0_1] 0]

@@ -1,0 +1,38 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu May 13 17:48:06 2021
+# Process ID: 1956
+# Current directory: C:/Users/user/Desktop/mayýs/TX_1byte_tlast_enabled
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10220 C:\Users\user\Desktop\mayýs\TX_1byte_tlast_enabled\alex.xpr
+# Log file: C:/Users/user/Desktop/mayýs/TX_1byte_tlast_enabled/vivado.log
+# Journal file: C:/Users/user/Desktop/mayýs/TX_1byte_tlast_enabled\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/user/Desktop/mayýs/TX_1byte_tlast_enabled/alex.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 1229.422 ; gain = 67.926
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6 -scripts_only
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/user/Desktop/mayýs/TX_1byte_tlast_enabled/alex.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci' is already up-to-date
+reset_run synth_1
+launch_runs synth_1
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/user/Desktop/mayýs/TX_1byte_tlast_enabled/alex.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci' is already up-to-date
+[Thu May 13 17:50:40 2021] Launched synth_1...
+Run output will be captured here: C:/Users/user/Desktop/mayýs/TX_1byte_tlast_enabled/alex.runs/synth_1/runme.log
+INFO: [#UNDEF] srcscan: Caught unrecognized exception executing TCL command [NO-FILE:]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/user/Desktop/mayýs/TX_1byte_tlast_enabled/alex.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci' is already up-to-date
+[Thu May 13 17:54:29 2021] Launched synth_1...
+Run output will be captured here: C:/Users/user/Desktop/mayýs/TX_1byte_tlast_enabled/alex.runs/synth_1/runme.log
+[Thu May 13 17:54:30 2021] Launched impl_1...
+Run output will be captured here: C:/Users/user/Desktop/mayýs/TX_1byte_tlast_enabled/alex.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu May 13 17:55:11 2021...

@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu May 13 17:29:50 2021
+# Process ID: 1636
+# Current directory: C:/Users/user/Desktop/mayýs/RX_1byte_tlast_enabled
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13260 C:\Users\user\Desktop\mayýs\RX_1byte_tlast_enabled\alex.xpr
+# Log file: C:/Users/user/Desktop/mayýs/RX_1byte_tlast_enabled/vivado.log
+# Journal file: C:/Users/user/Desktop/mayýs/RX_1byte_tlast_enabled\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/user/Desktop/mayýs/RX_1byte_tlast_enabled/alex.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/user/Desktop/nisan/alex_replying_working_first_example_plus_aurora_forwarding_rx_1byte' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:12 . Memory (MB): peak = 1218.746 ; gain = 71.230
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6 -scripts_only
+reset_run synth_1
+launch_runs synth_1
+[Thu May 13 17:50:49 2021] Launched synth_1...
+Run output will be captured here: C:/Users/user/Desktop/mayýs/RX_1byte_tlast_enabled/alex.runs/synth_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu May 13 17:55:13 2021...

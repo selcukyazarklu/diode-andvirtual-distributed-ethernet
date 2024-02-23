@@ -1,0 +1,1087 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri May 14 23:55:50 2021
+# Process ID: 22080
+# Current directory: C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.runs/synth_1
+# Command line: vivado.exe -log fpga.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fpga.tcl
+# Log file: C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.runs/synth_1/fpga.vds
+# Journal file: C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source fpga.tcl -notrace
+Command: synth_design -top fpga -part xc7k325tfbv676-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: [Device 21-403] Loading part xc7k325tfbv676-2
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 22804
+WARNING: [Synth 8-2507] parameter declaration becomes local in arp_eth_rx with formal parameter declaration list [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/arp_eth_rx.v:87]
+WARNING: [Synth 8-2507] parameter declaration becomes local in arp_eth_rx with formal parameter declaration list [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/arp_eth_rx.v:89]
+WARNING: [Synth 8-2507] parameter declaration becomes local in arp_eth_rx with formal parameter declaration list [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/arp_eth_rx.v:91]
+WARNING: [Synth 8-2507] parameter declaration becomes local in arp_eth_tx with formal parameter declaration list [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/arp_eth_tx.v:83]
+WARNING: [Synth 8-2507] parameter declaration becomes local in arp_eth_tx with formal parameter declaration list [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/arp_eth_tx.v:85]
+WARNING: [Synth 8-2507] parameter declaration becomes local in arp_eth_tx with formal parameter declaration list [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/arp_eth_tx.v:87]
+WARNING: [Synth 8-2507] parameter declaration becomes local in axis_async_fifo with formal parameter declaration list [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/lib/axis_async_fifo.v:120]
+WARNING: [Synth 8-2507] parameter declaration becomes local in axis_async_fifo_adapter with formal parameter declaration list [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/lib/axis_async_fifo_adapter.v:123]
+WARNING: [Synth 8-2507] parameter declaration becomes local in axis_async_fifo_adapter with formal parameter declaration list [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/lib/axis_async_fifo_adapter.v:124]
+WARNING: [Synth 8-2507] parameter declaration becomes local in axis_async_fifo_adapter with formal parameter declaration list [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/lib/axis_async_fifo_adapter.v:127]
+WARNING: [Synth 8-2507] parameter declaration becomes local in axis_async_fifo_adapter with formal parameter declaration list [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/lib/axis_async_fifo_adapter.v:128]
+WARNING: [Synth 8-2507] parameter declaration becomes local in axis_async_fifo_adapter with formal parameter declaration list [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/lib/axis_async_fifo_adapter.v:130]
+WARNING: [Synth 8-2507] parameter declaration becomes local in axis_async_fifo_adapter with formal parameter declaration list [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/lib/axis_async_fifo_adapter.v:132]
+WARNING: [Synth 8-2507] parameter declaration becomes local in axis_async_fifo_adapter with formal parameter declaration list [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/lib/axis_async_fifo_adapter.v:133]
+WARNING: [Synth 8-2507] parameter declaration becomes local in axis_fifo with formal parameter declaration list [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/lib/axis_fifo.v:113]
+WARNING: [Synth 8-2507] parameter declaration becomes local in eth_arb_mux with formal parameter declaration list [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/eth_arb_mux.v:88]
+WARNING: [Synth 8-2507] parameter declaration becomes local in eth_axis_rx with formal parameter declaration list [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/eth_axis_rx.v:78]
+WARNING: [Synth 8-2507] parameter declaration becomes local in eth_axis_rx with formal parameter declaration list [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/eth_axis_rx.v:80]
+WARNING: [Synth 8-2507] parameter declaration becomes local in eth_axis_rx with formal parameter declaration list [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/eth_axis_rx.v:82]
+WARNING: [Synth 8-2507] parameter declaration becomes local in eth_axis_tx with formal parameter declaration list [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/eth_axis_tx.v:77]
+WARNING: [Synth 8-2507] parameter declaration becomes local in eth_axis_tx with formal parameter declaration list [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/eth_axis_tx.v:79]
+WARNING: [Synth 8-2507] parameter declaration becomes local in eth_axis_tx with formal parameter declaration list [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/eth_axis_tx.v:81]
+WARNING: [Synth 8-2292] literal value truncated to fit in 48 bits [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/fpga_core.v:211]
+WARNING: [Synth 8-2292] literal value truncated to fit in 48 bits [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/fpga_core.v:449]
+WARNING: [Synth 8-2507] parameter declaration becomes local in ip_arb_mux with formal parameter declaration list [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/ip_arb_mux.v:114]
+WARNING: [Synth 8-2507] parameter declaration becomes local in lfsr with formal parameter declaration list [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/lfsr.v:366]
+WARNING: [Synth 8-2507] parameter declaration becomes local in priority_encoder with formal parameter declaration list [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/lib/priority_encoder.v:45]
+WARNING: [Synth 8-2507] parameter declaration becomes local in priority_encoder with formal parameter declaration list [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/lib/priority_encoder.v:46]
+WARNING: [Synth 8-2507] parameter declaration becomes local in udp_checksum_gen with formal parameter declaration list [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/udp_checksum_gen.v:141]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1251.312 ; gain = 89.527
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'fpga' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/fpga.v:32]
+INFO: [Synth 8-6157] synthesizing module 'IBUFGDS' [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:33462]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DIFF_TERM bound to: FALSE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IBUFGDS' (1#1) [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:33462]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.runs/synth_1/.Xil/Vivado-22080-MSI/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (2#1) [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.runs/synth_1/.Xil/Vivado-22080-MSI/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'MMCME2_BASE' [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:40118]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 5.000000 - type: double 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKIN1_PERIOD bound to: 5.000000 - type: double 
+	Parameter CLKOUT0_DIVIDE_F bound to: 8.000000 - type: double 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT1_DIVIDE bound to: 8 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT2_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT3_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT6_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT6_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT6_PHASE bound to: 0.000000 - type: double 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: double 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'MMCME2_BASE' (3#1) [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:40118]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:1083]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (4#1) [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:1083]
+INFO: [Synth 8-6157] synthesizing module 'sync_reset' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/lib/sync_reset.v:33]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'sync_reset' (5#1) [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/lib/sync_reset.v:33]
+INFO: [Synth 8-6157] synthesizing module 'gig_ethernet_pcs_pma_0' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.runs/synth_1/.Xil/Vivado-22080-MSI/realtime/gig_ethernet_pcs_pma_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'gig_ethernet_pcs_pma_0' (6#1) [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.runs/synth_1/.Xil/Vivado-22080-MSI/realtime/gig_ethernet_pcs_pma_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'aurora_8b10b_0' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.runs/synth_1/.Xil/Vivado-22080-MSI/realtime/aurora_8b10b_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'aurora_8b10b_0' (7#1) [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.runs/synth_1/.Xil/Vivado-22080-MSI/realtime/aurora_8b10b_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'aurora_8b10b_0_AXI_TO_LL_EXDES' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/new/aurora_8b10b_0_AXI_TO_LL_EXDES.v:62]
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+	Parameter STRB_WIDTH bound to: 4 - type: integer 
+	Parameter BC bound to: 4 - type: integer 
+	Parameter USE_4_NFC bound to: 0 - type: integer 
+	Parameter REM_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'aurora_8b10b_0_AXI_TO_LL_EXDES' (8#1) [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/new/aurora_8b10b_0_AXI_TO_LL_EXDES.v:62]
+INFO: [Synth 8-6157] synthesizing module 'fpga_core' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/fpga_core.v:33]
+INFO: [Synth 8-6157] synthesizing module 'eth_mac_1g_fifo' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/eth_mac_1g_fifo.v:32]
+	Parameter AXIS_DATA_WIDTH bound to: 8 - type: integer 
+	Parameter AXIS_KEEP_ENABLE bound to: 1'b0 
+	Parameter AXIS_KEEP_WIDTH bound to: 1 - type: integer 
+	Parameter ENABLE_PADDING bound to: 1 - type: integer 
+	Parameter MIN_FRAME_LENGTH bound to: 64 - type: integer 
+	Parameter TX_FIFO_DEPTH bound to: 4096 - type: integer 
+	Parameter TX_FRAME_FIFO bound to: 1 - type: integer 
+	Parameter TX_DROP_BAD_FRAME bound to: 1 - type: integer 
+	Parameter TX_DROP_WHEN_FULL bound to: 0 - type: integer 
+	Parameter RX_FIFO_DEPTH bound to: 4096 - type: integer 
+	Parameter RX_FRAME_FIFO bound to: 1 - type: integer 
+	Parameter RX_DROP_BAD_FRAME bound to: 1 - type: integer 
+	Parameter RX_DROP_WHEN_FULL bound to: 1 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'eth_mac_1g' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/eth_mac_1g.v:32]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter ENABLE_PADDING bound to: 1 - type: integer 
+	Parameter MIN_FRAME_LENGTH bound to: 64 - type: integer 
+	Parameter TX_PTP_TS_ENABLE bound to: 0 - type: integer 
+	Parameter TX_PTP_TS_WIDTH bound to: 96 - type: integer 
+	Parameter TX_PTP_TAG_ENABLE bound to: 0 - type: integer 
+	Parameter TX_PTP_TAG_WIDTH bound to: 16 - type: integer 
+	Parameter RX_PTP_TS_ENABLE bound to: 0 - type: integer 
+	Parameter RX_PTP_TS_WIDTH bound to: 96 - type: integer 
+	Parameter TX_USER_WIDTH bound to: 1 - type: integer 
+	Parameter RX_USER_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'axis_gmii_rx' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/axis_gmii_rx.v:32]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter PTP_TS_ENABLE bound to: 0 - type: integer 
+	Parameter PTP_TS_WIDTH bound to: 96 - type: integer 
+	Parameter USER_WIDTH bound to: 1 - type: integer 
+	Parameter ETH_PRE bound to: 8'b01010101 
+	Parameter ETH_SFD bound to: 8'b11010101 
+	Parameter STATE_IDLE bound to: 3'b000 
+	Parameter STATE_PAYLOAD bound to: 3'b001 
+	Parameter STATE_WAIT_LAST bound to: 3'b010 
+INFO: [Synth 8-6157] synthesizing module 'lfsr' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/lfsr.v:32]
+	Parameter LFSR_WIDTH bound to: 32 - type: integer 
+	Parameter LFSR_POLY bound to: 79764919 - type: integer 
+	Parameter LFSR_CONFIG bound to: GALOIS - type: string 
+	Parameter LFSR_FEED_FORWARD bound to: 0 - type: integer 
+	Parameter REVERSE bound to: 1 - type: integer 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter STYLE bound to: AUTO - type: string 
+	Parameter STYLE_INT bound to: LOOP - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'lfsr' (9#1) [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/lfsr.v:32]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/axis_gmii_rx.v:184]
+INFO: [Synth 8-6155] done synthesizing module 'axis_gmii_rx' (10#1) [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/axis_gmii_rx.v:32]
+INFO: [Synth 8-6157] synthesizing module 'axis_gmii_tx' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/axis_gmii_tx.v:32]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter ENABLE_PADDING bound to: 1 - type: integer 
+	Parameter MIN_FRAME_LENGTH bound to: 64 - type: integer 
+	Parameter PTP_TS_ENABLE bound to: 0 - type: integer 
+	Parameter PTP_TS_WIDTH bound to: 96 - type: integer 
+	Parameter PTP_TAG_ENABLE bound to: 0 - type: integer 
+	Parameter PTP_TAG_WIDTH bound to: 16 - type: integer 
+	Parameter USER_WIDTH bound to: 1 - type: integer 
+	Parameter ETH_PRE bound to: 8'b01010101 
+	Parameter ETH_SFD bound to: 8'b11010101 
+	Parameter STATE_IDLE bound to: 3'b000 
+	Parameter STATE_PREAMBLE bound to: 3'b001 
+	Parameter STATE_PAYLOAD bound to: 3'b010 
+	Parameter STATE_LAST bound to: 3'b011 
+	Parameter STATE_PAD bound to: 3'b100 
+	Parameter STATE_FCS bound to: 3'b101 
+	Parameter STATE_WAIT_END bound to: 3'b110 
+	Parameter STATE_IFG bound to: 3'b111 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/axis_gmii_tx.v:335]
+INFO: [Synth 8-6155] done synthesizing module 'axis_gmii_tx' (11#1) [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/axis_gmii_tx.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'eth_mac_1g' (12#1) [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/eth_mac_1g.v:32]
+WARNING: [Synth 8-7071] port 'tx_ptp_ts' of module 'eth_mac_1g' is unconnected for instance 'eth_mac_1g_inst' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/eth_mac_1g_fifo.v:189]
+WARNING: [Synth 8-7071] port 'rx_ptp_ts' of module 'eth_mac_1g' is unconnected for instance 'eth_mac_1g_inst' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/eth_mac_1g_fifo.v:189]
+WARNING: [Synth 8-7071] port 'tx_axis_ptp_ts' of module 'eth_mac_1g' is unconnected for instance 'eth_mac_1g_inst' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/eth_mac_1g_fifo.v:189]
+WARNING: [Synth 8-7071] port 'tx_axis_ptp_ts_tag' of module 'eth_mac_1g' is unconnected for instance 'eth_mac_1g_inst' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/eth_mac_1g_fifo.v:189]
+WARNING: [Synth 8-7071] port 'tx_axis_ptp_ts_valid' of module 'eth_mac_1g' is unconnected for instance 'eth_mac_1g_inst' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/eth_mac_1g_fifo.v:189]
+WARNING: [Synth 8-7071] port 'tx_start_packet' of module 'eth_mac_1g' is unconnected for instance 'eth_mac_1g_inst' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/eth_mac_1g_fifo.v:189]
+WARNING: [Synth 8-7071] port 'rx_start_packet' of module 'eth_mac_1g' is unconnected for instance 'eth_mac_1g_inst' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/eth_mac_1g_fifo.v:189]
+WARNING: [Synth 8-7023] instance 'eth_mac_1g_inst' of module 'eth_mac_1g' has 34 connections declared, but only 27 given [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/eth_mac_1g_fifo.v:189]
+INFO: [Synth 8-6157] synthesizing module 'axis_async_fifo_adapter' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/lib/axis_async_fifo_adapter.v:32]
+	Parameter DEPTH bound to: 4096 - type: integer 
+	Parameter S_DATA_WIDTH bound to: 8 - type: integer 
+	Parameter S_KEEP_ENABLE bound to: 1'b0 
+	Parameter S_KEEP_WIDTH bound to: 1 - type: integer 
+	Parameter M_DATA_WIDTH bound to: 8 - type: integer 
+	Parameter M_KEEP_ENABLE bound to: 0 - type: integer 
+	Parameter M_KEEP_WIDTH bound to: 1 - type: integer 
+	Parameter ID_ENABLE bound to: 0 - type: integer 
+	Parameter ID_WIDTH bound to: 8 - type: integer 
+	Parameter DEST_ENABLE bound to: 0 - type: integer 
+	Parameter DEST_WIDTH bound to: 8 - type: integer 
+	Parameter USER_ENABLE bound to: 1 - type: integer 
+	Parameter USER_WIDTH bound to: 1 - type: integer 
+	Parameter PIPELINE_OUTPUT bound to: 2 - type: integer 
+	Parameter FRAME_FIFO bound to: 1 - type: integer 
+	Parameter USER_BAD_FRAME_VALUE bound to: 1'b1 
+	Parameter USER_BAD_FRAME_MASK bound to: 1'b1 
+	Parameter DROP_BAD_FRAME bound to: 1 - type: integer 
+	Parameter DROP_WHEN_FULL bound to: 0 - type: integer 
+	Parameter S_KEEP_WIDTH_INT bound to: 1 - type: integer 
+	Parameter M_KEEP_WIDTH_INT bound to: 1 - type: integer 
+	Parameter S_DATA_WORD_SIZE bound to: 8 - type: integer 
+	Parameter M_DATA_WORD_SIZE bound to: 8 - type: integer 
+	Parameter EXPAND_BUS bound to: 1'b0 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter KEEP_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'axis_async_fifo' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/lib/axis_async_fifo.v:32]
+	Parameter DEPTH bound to: 4096 - type: integer 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter KEEP_ENABLE bound to: 0 - type: integer 
+	Parameter KEEP_WIDTH bound to: 1 - type: integer 
+	Parameter LAST_ENABLE bound to: 1 - type: integer 
+	Parameter ID_ENABLE bound to: 0 - type: integer 
+	Parameter ID_WIDTH bound to: 8 - type: integer 
+	Parameter DEST_ENABLE bound to: 0 - type: integer 
+	Parameter DEST_WIDTH bound to: 8 - type: integer 
+	Parameter USER_ENABLE bound to: 1 - type: integer 
+	Parameter USER_WIDTH bound to: 1 - type: integer 
+	Parameter PIPELINE_OUTPUT bound to: 2 - type: integer 
+	Parameter FRAME_FIFO bound to: 1 - type: integer 
+	Parameter USER_BAD_FRAME_VALUE bound to: 1'b1 
+	Parameter USER_BAD_FRAME_MASK bound to: 1'b1 
+	Parameter DROP_BAD_FRAME bound to: 1 - type: integer 
+	Parameter DROP_WHEN_FULL bound to: 0 - type: integer 
+	Parameter ADDR_WIDTH bound to: 12 - type: integer 
+	Parameter KEEP_OFFSET bound to: 8 - type: integer 
+	Parameter LAST_OFFSET bound to: 8 - type: integer 
+	Parameter ID_OFFSET bound to: 9 - type: integer 
+	Parameter DEST_OFFSET bound to: 9 - type: integer 
+	Parameter USER_OFFSET bound to: 9 - type: integer 
+	Parameter WIDTH bound to: 10 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'axis_async_fifo' (13#1) [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/lib/axis_async_fifo.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'axis_async_fifo_adapter' (14#1) [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/lib/axis_async_fifo_adapter.v:32]
+INFO: [Synth 8-6157] synthesizing module 'axis_async_fifo_adapter__parameterized0' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/lib/axis_async_fifo_adapter.v:32]
+	Parameter DEPTH bound to: 4096 - type: integer 
+	Parameter S_DATA_WIDTH bound to: 8 - type: integer 
+	Parameter S_KEEP_ENABLE bound to: 0 - type: integer 
+	Parameter S_KEEP_WIDTH bound to: 1 - type: integer 
+	Parameter M_DATA_WIDTH bound to: 8 - type: integer 
+	Parameter M_KEEP_ENABLE bound to: 1'b0 
+	Parameter M_KEEP_WIDTH bound to: 1 - type: integer 
+	Parameter ID_ENABLE bound to: 0 - type: integer 
+	Parameter ID_WIDTH bound to: 8 - type: integer 
+	Parameter DEST_ENABLE bound to: 0 - type: integer 
+	Parameter DEST_WIDTH bound to: 8 - type: integer 
+	Parameter USER_ENABLE bound to: 1 - type: integer 
+	Parameter USER_WIDTH bound to: 1 - type: integer 
+	Parameter PIPELINE_OUTPUT bound to: 2 - type: integer 
+	Parameter FRAME_FIFO bound to: 1 - type: integer 
+	Parameter USER_BAD_FRAME_VALUE bound to: 1'b1 
+	Parameter USER_BAD_FRAME_MASK bound to: 1'b1 
+	Parameter DROP_BAD_FRAME bound to: 1 - type: integer 
+	Parameter DROP_WHEN_FULL bound to: 1 - type: integer 
+	Parameter S_KEEP_WIDTH_INT bound to: 1 - type: integer 
+	Parameter M_KEEP_WIDTH_INT bound to: 1 - type: integer 
+	Parameter S_DATA_WORD_SIZE bound to: 8 - type: integer 
+	Parameter M_DATA_WORD_SIZE bound to: 8 - type: integer 
+	Parameter EXPAND_BUS bound to: 1'b0 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter KEEP_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'axis_async_fifo__parameterized0' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/lib/axis_async_fifo.v:32]
+	Parameter DEPTH bound to: 4096 - type: integer 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter KEEP_ENABLE bound to: 0 - type: integer 
+	Parameter KEEP_WIDTH bound to: 1 - type: integer 
+	Parameter LAST_ENABLE bound to: 1 - type: integer 
+	Parameter ID_ENABLE bound to: 0 - type: integer 
+	Parameter ID_WIDTH bound to: 8 - type: integer 
+	Parameter DEST_ENABLE bound to: 0 - type: integer 
+	Parameter DEST_WIDTH bound to: 8 - type: integer 
+	Parameter USER_ENABLE bound to: 1 - type: integer 
+	Parameter USER_WIDTH bound to: 1 - type: integer 
+	Parameter PIPELINE_OUTPUT bound to: 2 - type: integer 
+	Parameter FRAME_FIFO bound to: 1 - type: integer 
+	Parameter USER_BAD_FRAME_VALUE bound to: 1'b1 
+	Parameter USER_BAD_FRAME_MASK bound to: 1'b1 
+	Parameter DROP_BAD_FRAME bound to: 1 - type: integer 
+	Parameter DROP_WHEN_FULL bound to: 1 - type: integer 
+	Parameter ADDR_WIDTH bound to: 12 - type: integer 
+	Parameter KEEP_OFFSET bound to: 8 - type: integer 
+	Parameter LAST_OFFSET bound to: 8 - type: integer 
+	Parameter ID_OFFSET bound to: 9 - type: integer 
+	Parameter DEST_OFFSET bound to: 9 - type: integer 
+	Parameter USER_OFFSET bound to: 9 - type: integer 
+	Parameter WIDTH bound to: 10 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'axis_async_fifo__parameterized0' (14#1) [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/lib/axis_async_fifo.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'axis_async_fifo_adapter__parameterized0' (14#1) [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/lib/axis_async_fifo_adapter.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'eth_mac_1g_fifo' (15#1) [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/eth_mac_1g_fifo.v:32]
+WARNING: [Synth 8-7071] port 'tx_axis_tkeep' of module 'eth_mac_1g_fifo' is unconnected for instance 'eth_mac_inst' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/fpga_core.v:372]
+WARNING: [Synth 8-7071] port 'rx_axis_tkeep' of module 'eth_mac_1g_fifo' is unconnected for instance 'eth_mac_inst' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/fpga_core.v:372]
+WARNING: [Synth 8-7071] port 'tx_error_underflow' of module 'eth_mac_1g_fifo' is unconnected for instance 'eth_mac_inst' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/fpga_core.v:372]
+WARNING: [Synth 8-7023] instance 'eth_mac_inst' of module 'eth_mac_1g_fifo' has 38 connections declared, but only 35 given [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/fpga_core.v:372]
+INFO: [Synth 8-6157] synthesizing module 'eth_axis_rx' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/eth_axis_rx.v:32]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter KEEP_ENABLE bound to: 1'b0 
+	Parameter KEEP_WIDTH bound to: 1 - type: integer 
+	Parameter CYCLE_COUNT bound to: 14 - type: integer 
+	Parameter PTR_WIDTH bound to: 4 - type: integer 
+	Parameter OFFSET bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'eth_axis_rx' (16#1) [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/eth_axis_rx.v:32]
+WARNING: [Synth 8-7071] port 's_axis_tkeep' of module 'eth_axis_rx' is unconnected for instance 'eth_axis_rx_inst' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/fpga_core.v:417]
+WARNING: [Synth 8-7071] port 'm_eth_payload_axis_tkeep' of module 'eth_axis_rx' is unconnected for instance 'eth_axis_rx_inst' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/fpga_core.v:417]
+WARNING: [Synth 8-7023] instance 'eth_axis_rx_inst' of module 'eth_axis_rx' has 21 connections declared, but only 19 given [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/fpga_core.v:417]
+INFO: [Synth 8-6157] synthesizing module 'eth_axis_tx' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/eth_axis_tx.v:32]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter KEEP_ENABLE bound to: 1'b0 
+	Parameter KEEP_WIDTH bound to: 1 - type: integer 
+	Parameter CYCLE_COUNT bound to: 14 - type: integer 
+	Parameter PTR_WIDTH bound to: 4 - type: integer 
+	Parameter OFFSET bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'eth_axis_tx' (17#1) [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/eth_axis_tx.v:32]
+WARNING: [Synth 8-7071] port 's_eth_payload_axis_tkeep' of module 'eth_axis_tx' is unconnected for instance 'eth_axis_tx_inst' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/fpga_core.v:443]
+WARNING: [Synth 8-7071] port 'm_axis_tkeep' of module 'eth_axis_tx' is unconnected for instance 'eth_axis_tx_inst' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/fpga_core.v:443]
+WARNING: [Synth 8-7023] instance 'eth_axis_tx_inst' of module 'eth_axis_tx' has 20 connections declared, but only 18 given [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/fpga_core.v:443]
+INFO: [Synth 8-6157] synthesizing module 'udp_complete' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/udp_complete.v:32]
+	Parameter ARP_CACHE_ADDR_WIDTH bound to: 9 - type: integer 
+	Parameter ARP_REQUEST_RETRY_COUNT bound to: 4 - type: integer 
+	Parameter ARP_REQUEST_RETRY_INTERVAL bound to: 250000000 - type: integer 
+	Parameter ARP_REQUEST_TIMEOUT bound to: -544967296 - type: integer 
+	Parameter UDP_CHECKSUM_GEN_ENABLE bound to: 1 - type: integer 
+	Parameter UDP_CHECKSUM_PAYLOAD_FIFO_DEPTH bound to: 2048 - type: integer 
+	Parameter UDP_CHECKSUM_HEADER_FIFO_DEPTH bound to: 8 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'ip_arb_mux' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/ip_arb_mux.v:32]
+	Parameter S_COUNT bound to: 2 - type: integer 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter KEEP_ENABLE bound to: 0 - type: integer 
+	Parameter KEEP_WIDTH bound to: 1 - type: integer 
+	Parameter ID_ENABLE bound to: 0 - type: integer 
+	Parameter ID_WIDTH bound to: 8 - type: integer 
+	Parameter DEST_ENABLE bound to: 0 - type: integer 
+	Parameter DEST_WIDTH bound to: 8 - type: integer 
+	Parameter USER_ENABLE bound to: 1 - type: integer 
+	Parameter USER_WIDTH bound to: 1 - type: integer 
+	Parameter ARB_TYPE bound to: PRIORITY - type: string 
+	Parameter LSB_PRIORITY bound to: HIGH - type: string 
+	Parameter CL_S_COUNT bound to: 1 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'arbiter' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/lib/arbiter.v:32]
+	Parameter PORTS bound to: 2 - type: integer 
+	Parameter TYPE bound to: PRIORITY - type: string 
+	Parameter BLOCK bound to: ACKNOWLEDGE - type: string 
+	Parameter LSB_PRIORITY bound to: HIGH - type: string 
+INFO: [Synth 8-6157] synthesizing module 'priority_encoder' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/lib/priority_encoder.v:32]
+	Parameter WIDTH bound to: 2 - type: integer 
+	Parameter LSB_PRIORITY bound to: HIGH - type: string 
+	Parameter LEVELS bound to: 1 - type: integer 
+	Parameter W bound to: 2 - type: integer 
+WARNING: [Synth 8-693] zero replication count - replication ignored [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/lib/priority_encoder.v:49]
+INFO: [Synth 8-6155] done synthesizing module 'priority_encoder' (18#1) [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/lib/priority_encoder.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'arbiter' (19#1) [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/lib/arbiter.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'ip_arb_mux' (20#1) [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/ip_arb_mux.v:32]
+INFO: [Synth 8-6157] synthesizing module 'ip_complete' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/ip_complete.v:32]
+	Parameter ARP_CACHE_ADDR_WIDTH bound to: 9 - type: integer 
+	Parameter ARP_REQUEST_RETRY_COUNT bound to: 4 - type: integer 
+	Parameter ARP_REQUEST_RETRY_INTERVAL bound to: 250000000 - type: integer 
+	Parameter ARP_REQUEST_TIMEOUT bound to: -544967296 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'eth_arb_mux' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/eth_arb_mux.v:32]
+	Parameter S_COUNT bound to: 2 - type: integer 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter KEEP_ENABLE bound to: 0 - type: integer 
+	Parameter KEEP_WIDTH bound to: 1 - type: integer 
+	Parameter ID_ENABLE bound to: 0 - type: integer 
+	Parameter ID_WIDTH bound to: 8 - type: integer 
+	Parameter DEST_ENABLE bound to: 0 - type: integer 
+	Parameter DEST_WIDTH bound to: 8 - type: integer 
+	Parameter USER_ENABLE bound to: 1 - type: integer 
+	Parameter USER_WIDTH bound to: 1 - type: integer 
+	Parameter ARB_TYPE bound to: PRIORITY - type: string 
+	Parameter LSB_PRIORITY bound to: HIGH - type: string 
+	Parameter CL_S_COUNT bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'eth_arb_mux' (21#1) [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/eth_arb_mux.v:32]
+INFO: [Synth 8-6157] synthesizing module 'ip' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/ip.v:32]
+	Parameter STATE_IDLE bound to: 2'b00 
+	Parameter STATE_ARP_QUERY bound to: 2'b01 
+	Parameter STATE_WAIT_PACKET bound to: 2'b10 
+INFO: [Synth 8-6157] synthesizing module 'ip_eth_rx' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/ip_eth_rx.v:32]
+	Parameter STATE_IDLE bound to: 3'b000 
+	Parameter STATE_READ_HEADER bound to: 3'b001 
+	Parameter STATE_READ_PAYLOAD bound to: 3'b010 
+	Parameter STATE_READ_PAYLOAD_LAST bound to: 3'b011 
+	Parameter STATE_WAIT_LAST bound to: 3'b100 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/ip_eth_rx.v:309]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/ip_eth_rx.v:277]
+INFO: [Synth 8-6155] done synthesizing module 'ip_eth_rx' (22#1) [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/ip_eth_rx.v:32]
+INFO: [Synth 8-6157] synthesizing module 'ip_eth_tx' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/ip_eth_tx.v:32]
+	Parameter STATE_IDLE bound to: 3'b000 
+	Parameter STATE_WRITE_HEADER bound to: 3'b001 
+	Parameter STATE_WRITE_PAYLOAD bound to: 3'b010 
+	Parameter STATE_WRITE_PAYLOAD_LAST bound to: 3'b011 
+	Parameter STATE_WAIT_LAST bound to: 3'b100 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/ip_eth_tx.v:235]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/ip_eth_tx.v:207]
+INFO: [Synth 8-6155] done synthesizing module 'ip_eth_tx' (23#1) [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/ip_eth_tx.v:32]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/ip.v:272]
+INFO: [Synth 8-6155] done synthesizing module 'ip' (24#1) [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/ip.v:32]
+INFO: [Synth 8-6157] synthesizing module 'arp' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/arp.v:32]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter KEEP_ENABLE bound to: 1'b0 
+	Parameter KEEP_WIDTH bound to: 1 - type: integer 
+	Parameter CACHE_ADDR_WIDTH bound to: 9 - type: integer 
+	Parameter REQUEST_RETRY_COUNT bound to: 4 - type: integer 
+	Parameter REQUEST_RETRY_INTERVAL bound to: 250000000 - type: integer 
+	Parameter REQUEST_TIMEOUT bound to: -544967296 - type: integer 
+	Parameter ARP_OPER_ARP_REQUEST bound to: 16'b0000000000000001 
+	Parameter ARP_OPER_ARP_REPLY bound to: 16'b0000000000000010 
+	Parameter ARP_OPER_INARP_REQUEST bound to: 16'b0000000000001000 
+	Parameter ARP_OPER_INARP_REPLY bound to: 16'b0000000000001001 
+INFO: [Synth 8-6157] synthesizing module 'arp_eth_rx' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/arp_eth_rx.v:32]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter KEEP_ENABLE bound to: 1'b0 
+	Parameter KEEP_WIDTH bound to: 1 - type: integer 
+	Parameter CYCLE_COUNT bound to: 28 - type: integer 
+	Parameter PTR_WIDTH bound to: 5 - type: integer 
+	Parameter OFFSET bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'arp_eth_rx' (25#1) [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/arp_eth_rx.v:32]
+INFO: [Synth 8-6157] synthesizing module 'arp_eth_tx' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/arp_eth_tx.v:32]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter KEEP_ENABLE bound to: 1'b0 
+	Parameter KEEP_WIDTH bound to: 1 - type: integer 
+	Parameter CYCLE_COUNT bound to: 28 - type: integer 
+	Parameter PTR_WIDTH bound to: 5 - type: integer 
+	Parameter OFFSET bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'arp_eth_tx' (26#1) [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/arp_eth_tx.v:32]
+INFO: [Synth 8-6157] synthesizing module 'arp_cache' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/arp_cache.v:32]
+	Parameter CACHE_ADDR_WIDTH bound to: 9 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'lfsr__parameterized0' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/lfsr.v:32]
+	Parameter LFSR_WIDTH bound to: 32 - type: integer 
+	Parameter LFSR_POLY bound to: 79764919 - type: integer 
+	Parameter LFSR_CONFIG bound to: GALOIS - type: string 
+	Parameter LFSR_FEED_FORWARD bound to: 0 - type: integer 
+	Parameter REVERSE bound to: 1 - type: integer 
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+	Parameter STYLE bound to: AUTO - type: string 
+	Parameter STYLE_INT bound to: LOOP - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'lfsr__parameterized0' (26#1) [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/lfsr.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'arp_cache' (27#1) [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/arp_cache.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'arp' (28#1) [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/arp.v:32]
+WARNING: [Synth 8-7071] port 's_eth_payload_axis_tkeep' of module 'arp' is unconnected for instance 'arp_inst' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/ip_complete.v:399]
+WARNING: [Synth 8-7071] port 'm_eth_payload_axis_tkeep' of module 'arp' is unconnected for instance 'arp_inst' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/ip_complete.v:399]
+WARNING: [Synth 8-7023] instance 'arp_inst' of module 'arp' has 36 connections declared, but only 34 given [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/ip_complete.v:399]
+INFO: [Synth 8-6155] done synthesizing module 'ip_complete' (29#1) [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/ip_complete.v:32]
+INFO: [Synth 8-6157] synthesizing module 'udp' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/udp.v:32]
+	Parameter CHECKSUM_GEN_ENABLE bound to: 1 - type: integer 
+	Parameter CHECKSUM_PAYLOAD_FIFO_DEPTH bound to: 2048 - type: integer 
+	Parameter CHECKSUM_HEADER_FIFO_DEPTH bound to: 8 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'udp_checksum_gen' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/udp_checksum_gen.v:32]
+	Parameter PAYLOAD_FIFO_DEPTH bound to: 2048 - type: integer 
+	Parameter HEADER_FIFO_DEPTH bound to: 8 - type: integer 
+	Parameter HEADER_FIFO_ADDR_WIDTH bound to: 3 - type: integer 
+	Parameter STATE_IDLE bound to: 3'b000 
+	Parameter STATE_SUM_HEADER_1 bound to: 3'b001 
+	Parameter STATE_SUM_HEADER_2 bound to: 3'b010 
+	Parameter STATE_SUM_HEADER_3 bound to: 3'b011 
+	Parameter STATE_SUM_PAYLOAD bound to: 3'b100 
+	Parameter STATE_FINISH_SUM bound to: 3'b101 
+INFO: [Synth 8-6157] synthesizing module 'axis_fifo' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/lib/axis_fifo.v:32]
+	Parameter DEPTH bound to: 2048 - type: integer 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter KEEP_ENABLE bound to: 0 - type: integer 
+	Parameter KEEP_WIDTH bound to: 1 - type: integer 
+	Parameter LAST_ENABLE bound to: 1 - type: integer 
+	Parameter ID_ENABLE bound to: 0 - type: integer 
+	Parameter ID_WIDTH bound to: 8 - type: integer 
+	Parameter DEST_ENABLE bound to: 0 - type: integer 
+	Parameter DEST_WIDTH bound to: 8 - type: integer 
+	Parameter USER_ENABLE bound to: 1 - type: integer 
+	Parameter USER_WIDTH bound to: 1 - type: integer 
+	Parameter PIPELINE_OUTPUT bound to: 2 - type: integer 
+	Parameter FRAME_FIFO bound to: 0 - type: integer 
+	Parameter USER_BAD_FRAME_VALUE bound to: 1'b1 
+	Parameter USER_BAD_FRAME_MASK bound to: 1'b1 
+	Parameter DROP_BAD_FRAME bound to: 0 - type: integer 
+	Parameter DROP_WHEN_FULL bound to: 0 - type: integer 
+	Parameter ADDR_WIDTH bound to: 11 - type: integer 
+	Parameter KEEP_OFFSET bound to: 8 - type: integer 
+	Parameter LAST_OFFSET bound to: 8 - type: integer 
+	Parameter ID_OFFSET bound to: 9 - type: integer 
+	Parameter DEST_OFFSET bound to: 9 - type: integer 
+	Parameter USER_OFFSET bound to: 9 - type: integer 
+	Parameter WIDTH bound to: 10 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'axis_fifo' (30#1) [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/lib/axis_fifo.v:32]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/udp_checksum_gen.v:448]
+INFO: [Synth 8-6155] done synthesizing module 'udp_checksum_gen' (31#1) [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/udp_checksum_gen.v:32]
+INFO: [Synth 8-6157] synthesizing module 'udp_ip_rx' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/udp_ip_rx.v:32]
+	Parameter STATE_IDLE bound to: 3'b000 
+	Parameter STATE_READ_HEADER bound to: 3'b001 
+	Parameter STATE_READ_PAYLOAD bound to: 3'b010 
+	Parameter STATE_READ_PAYLOAD_LAST bound to: 3'b011 
+	Parameter STATE_WAIT_LAST bound to: 3'b100 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/udp_ip_rx.v:263]
+INFO: [Synth 8-6155] done synthesizing module 'udp_ip_rx' (32#1) [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/udp_ip_rx.v:32]
+INFO: [Synth 8-6157] synthesizing module 'udp_ip_tx' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/udp_ip_tx.v:32]
+	Parameter STATE_IDLE bound to: 3'b000 
+	Parameter STATE_WRITE_HEADER bound to: 3'b001 
+	Parameter STATE_WRITE_PAYLOAD bound to: 3'b010 
+	Parameter STATE_WRITE_PAYLOAD_LAST bound to: 3'b011 
+	Parameter STATE_WAIT_LAST bound to: 3'b100 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/udp_ip_tx.v:238]
+INFO: [Synth 8-6155] done synthesizing module 'udp_ip_tx' (33#1) [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/udp_ip_tx.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'udp' (34#1) [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/udp.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'udp_complete' (35#1) [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/udp_complete.v:32]
+INFO: [Synth 8-6157] synthesizing module 'axis_fifo__parameterized0' [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/lib/axis_fifo.v:32]
+	Parameter DEPTH bound to: 8192 - type: integer 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter KEEP_ENABLE bound to: 0 - type: integer 
+	Parameter KEEP_WIDTH bound to: 1 - type: integer 
+	Parameter LAST_ENABLE bound to: 1 - type: integer 
+	Parameter ID_ENABLE bound to: 0 - type: integer 
+	Parameter ID_WIDTH bound to: 8 - type: integer 
+	Parameter DEST_ENABLE bound to: 0 - type: integer 
+	Parameter DEST_WIDTH bound to: 8 - type: integer 
+	Parameter USER_ENABLE bound to: 1 - type: integer 
+	Parameter USER_WIDTH bound to: 1 - type: integer 
+	Parameter PIPELINE_OUTPUT bound to: 2 - type: integer 
+	Parameter FRAME_FIFO bound to: 0 - type: integer 
+	Parameter USER_BAD_FRAME_VALUE bound to: 1'b1 
+	Parameter USER_BAD_FRAME_MASK bound to: 1'b1 
+	Parameter DROP_BAD_FRAME bound to: 0 - type: integer 
+	Parameter DROP_WHEN_FULL bound to: 0 - type: integer 
+	Parameter ADDR_WIDTH bound to: 13 - type: integer 
+	Parameter KEEP_OFFSET bound to: 8 - type: integer 
+	Parameter LAST_OFFSET bound to: 8 - type: integer 
+	Parameter ID_OFFSET bound to: 9 - type: integer 
+	Parameter DEST_OFFSET bound to: 9 - type: integer 
+	Parameter USER_OFFSET bound to: 9 - type: integer 
+	Parameter WIDTH bound to: 10 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'axis_fifo__parameterized0' (35#1) [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/lib/axis_fifo.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'fpga_core' (36#1) [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/fpga_core.v:33]
+INFO: [Synth 8-6155] done synthesizing module 'fpga' (37#1) [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/sources_1/fpga.v:32]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1450.664 ; gain = 288.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1472.562 ; gain = 310.777
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1472.562 ; gain = 310.777
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.187 . Memory (MB): peak = 1484.582 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.gen/sources_1/ip/gig_ethernet_pcs_pma_0/gig_ethernet_pcs_pma_0/gig_ethernet_pcs_pma_0_in_context.xdc] for cell 'eth_pcspma'
+Finished Parsing XDC File [c:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.gen/sources_1/ip/gig_ethernet_pcs_pma_0/gig_ethernet_pcs_pma_0/gig_ethernet_pcs_pma_0_in_context.xdc] for cell 'eth_pcspma'
+Parsing XDC File [c:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.gen/sources_1/ip/aurora_8b10b_0/aurora_8b10b_0/aurora_8b10b_0_in_context.xdc] for cell 'AURORA0'
+Finished Parsing XDC File [c:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.gen/sources_1/ip/aurora_8b10b_0/aurora_8b10b_0/aurora_8b10b_0_in_context.xdc] for cell 'AURORA0'
+Parsing XDC File [c:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_wiz_0_inst'
+Finished Parsing XDC File [c:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_wiz_0_inst'
+Parsing XDC File [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc]
+WARNING: [Vivado 12-584] No ports matched 'uart_rxd'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:19]
+WARNING: [Vivado 12-584] No ports matched 'uart_rxd'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:20]
+WARNING: [Vivado 12-584] No ports matched 'uart_txd'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:21]
+WARNING: [Vivado 12-584] No ports matched 'uart_txd'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:22]
+WARNING: [Vivado 12-584] No ports matched 'btnu'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:34]
+WARNING: [Vivado 12-584] No ports matched 'btnl'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:35]
+WARNING: [Vivado 12-584] No ports matched 'dip_switches_4bits_tri_i[2]'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:36]
+WARNING: [Vivado 12-584] No ports matched 'dip_switches_4bits_tri_i[3]'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:37]
+WARNING: [Vivado 12-584] No ports matched 'btnu'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:39]
+WARNING: [Vivado 12-584] No ports matched 'btnu'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:40]
+WARNING: [Vivado 12-584] No ports matched 'btnl'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:41]
+WARNING: [Vivado 12-584] No ports matched 'btnl'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:42]
+WARNING: [Vivado 12-584] No ports matched 'btnd'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:43]
+WARNING: [Vivado 12-584] No ports matched 'btnd'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:44]
+WARNING: [Vivado 12-584] No ports matched 'btnr'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:45]
+WARNING: [Vivado 12-584] No ports matched 'btnr'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:46]
+WARNING: [Vivado 12-584] No ports matched 'btnc'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:48]
+WARNING: [Vivado 12-584] No ports matched 'btnc'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:49]
+WARNING: [Vivado 12-584] No ports matched 'eeprom_scl_io'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:51]
+WARNING: [Vivado 12-584] No ports matched 'eeprom_scl_io'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:52]
+WARNING: [Vivado 12-584] No ports matched 'eeprom_sda_io'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:53]
+WARNING: [Vivado 12-584] No ports matched 'eeprom_sda_io'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:54]
+WARNING: [Vivado 12-584] No ports matched 'lm75_scl_io'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:56]
+WARNING: [Vivado 12-584] No ports matched 'lm75_scl_io'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:57]
+WARNING: [Vivado 12-584] No ports matched 'lm75_sda_io'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:58]
+WARNING: [Vivado 12-584] No ports matched 'lm75_sda_io'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:59]
+WARNING: [Vivado 12-584] No ports matched 'spi_io0_io'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:61]
+WARNING: [Vivado 12-584] No ports matched 'spi_io0_io'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:62]
+WARNING: [Vivado 12-584] No ports matched 'spi_io1_io'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:63]
+WARNING: [Vivado 12-584] No ports matched 'spi_io1_io'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:64]
+WARNING: [Vivado 12-584] No ports matched 'spi_ss_io[0]'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:65]
+WARNING: [Vivado 12-584] No ports matched 'spi_ss_io[0]'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:66]
+WARNING: [Vivado 12-584] No ports matched 'TMDS_CLK_P'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:73]
+WARNING: [Vivado 12-584] No ports matched 'TMDS_CLK_N'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:74]
+WARNING: [Vivado 12-584] No ports matched 'TMDS_DATA_P[0]'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:75]
+WARNING: [Vivado 12-584] No ports matched 'TMDS_DATA_N[0]'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:76]
+WARNING: [Vivado 12-584] No ports matched 'TMDS_DATA_P[1]'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:77]
+WARNING: [Vivado 12-584] No ports matched 'TMDS_DATA_N[1]'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:78]
+WARNING: [Vivado 12-584] No ports matched 'TMDS_DATA_P[2]'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:79]
+WARNING: [Vivado 12-584] No ports matched 'TMDS_DATA_N[2]'. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc:80]
+Finished Parsing XDC File [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/fpga_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/new/mk701.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/fpga_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/fpga_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/axis_async_fifo.sdc]
+CRITICAL WARNING: [Designutils 20-1307] Command 'proc' is not supported in the xdc constraint file. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/axis_async_fifo.sdc:23]
+Finished Parsing XDC File [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/axis_async_fifo.sdc]
+Parsing XDC File [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/sync_reset.sdc]
+CRITICAL WARNING: [Designutils 20-1307] Command 'proc' is not supported in the xdc constraint file. [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/sync_reset.sdc:23]
+Finished Parsing XDC File [C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.srcs/constrs_1/sync_reset.sdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1589.543 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  IBUFGDS => IBUFDS: 1 instance 
+  MMCME2_BASE => MMCME2_ADV: 1 instance 
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.037 . Memory (MB): peak = 1589.543 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '12.800' specified during out-of-context synthesis of instance 'AURORA0' at clock pin 'sync_clk' is different from the actual clock period '8.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1589.551 ; gain = 427.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k325tfbv676-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1589.551 ; gain = 427.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for eth_pcspma. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for AURORA0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for clk_wiz_0_inst. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1589.551 ; gain = 427.766
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'axis_gmii_rx'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'axis_gmii_tx'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'ip_eth_rx'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'ip_eth_tx'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'ip'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'udp_ip_rx'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'udp_ip_tx'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+              STATE_IDLE |                              001 |                              000
+           STATE_PAYLOAD |                              010 |                              001
+         STATE_WAIT_LAST |                              100 |                              010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'one-hot' in module 'axis_gmii_rx'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+              STATE_IDLE |                              000 |                              000
+          STATE_PREAMBLE |                              001 |                              001
+           STATE_PAYLOAD |                              010 |                              010
+              STATE_LAST |                              011 |                              011
+               STATE_PAD |                              100 |                              100
+               STATE_FCS |                              101 |                              101
+          STATE_WAIT_END |                              110 |                              110
+               STATE_IFG |                              111 |                              111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'sequential' in module 'axis_gmii_tx'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+              STATE_IDLE |                              000 |                              000
+       STATE_READ_HEADER |                              001 |                              001
+         STATE_WAIT_LAST |                              010 |                              100
+      STATE_READ_PAYLOAD |                              011 |                              010
+ STATE_READ_PAYLOAD_LAST |                              100 |                              011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'sequential' in module 'ip_eth_rx'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+              STATE_IDLE |                             0001 |                              000
+      STATE_WRITE_HEADER |                             0010 |                              001
+     STATE_WRITE_PAYLOAD |                             0100 |                              010
+STATE_WRITE_PAYLOAD_LAST |                             1000 |                              011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'one-hot' in module 'ip_eth_tx'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+              STATE_IDLE |                               00 |                               00
+         STATE_ARP_QUERY |                               01 |                               01
+       STATE_WAIT_PACKET |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'sequential' in module 'ip'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+              STATE_IDLE |                               00 |                              000
+       STATE_READ_HEADER |                               01 |                              001
+      STATE_READ_PAYLOAD |                               10 |                              010
+ STATE_READ_PAYLOAD_LAST |                               11 |                              011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'sequential' in module 'udp_ip_rx'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+              STATE_IDLE |                               00 |                              000
+      STATE_WRITE_HEADER |                               01 |                              001
+     STATE_WRITE_PAYLOAD |                               10 |                              010
+STATE_WRITE_PAYLOAD_LAST |                               11 |                              011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'sequential' in module 'udp_ip_tx'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1589.551 ; gain = 427.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   36 Bit       Adders := 1     
+	   2 Input   32 Bit       Adders := 1     
+	   3 Input   32 Bit       Adders := 3     
+	   2 Input   17 Bit       Adders := 12    
+	   2 Input   16 Bit       Adders := 14    
+	   2 Input   14 Bit       Adders := 1     
+	   2 Input   13 Bit       Adders := 4     
+	   2 Input   12 Bit       Adders := 1     
+	   2 Input   11 Bit       Adders := 1     
+	   2 Input    9 Bit       Adders := 1     
+	   2 Input    6 Bit       Adders := 3     
+	   2 Input    5 Bit       Adders := 2     
+	   2 Input    4 Bit       Adders := 4     
+	   2 Input    3 Bit       Adders := 2     
+	   5 Input    2 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input     14 Bit         XORs := 1     
+	   2 Input     13 Bit         XORs := 10    
+	   2 Input     12 Bit         XORs := 1     
+	   2 Input      2 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 144   
+	   3 Input      1 Bit         XORs := 40    
+	   4 Input      1 Bit         XORs := 26    
+	   7 Input      1 Bit         XORs := 26    
+	   6 Input      1 Bit         XORs := 24    
+	   8 Input      1 Bit         XORs := 10    
+	   5 Input      1 Bit         XORs := 14    
+	   9 Input      1 Bit         XORs := 12    
+	  10 Input      1 Bit         XORs := 4     
+	  12 Input      1 Bit         XORs := 8     
+	  11 Input      1 Bit         XORs := 2     
+	  19 Input      1 Bit         XORs := 12    
+	  17 Input      1 Bit         XORs := 4     
+	  16 Input      1 Bit         XORs := 10    
+	  18 Input      1 Bit         XORs := 8     
+	  14 Input      1 Bit         XORs := 6     
+	  15 Input      1 Bit         XORs := 6     
+	  20 Input      1 Bit         XORs := 4     
+	  23 Input      1 Bit         XORs := 2     
+	  22 Input      1 Bit         XORs := 4     
+	  21 Input      1 Bit         XORs := 2     
+	  25 Input      1 Bit         XORs := 2     
+	  13 Input      1 Bit         XORs := 2     
++---Registers : 
+	               48 Bit    Registers := 32    
+	               36 Bit    Registers := 1     
+	               32 Bit    Registers := 22    
+	               16 Bit    Registers := 52    
+	               13 Bit    Registers := 22    
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 8     
+	                9 Bit    Registers := 2     
+	                8 Bit    Registers := 47    
+	                6 Bit    Registers := 9     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 17    
+	                3 Bit    Registers := 9     
+	                2 Bit    Registers := 21    
+	                1 Bit    Registers := 245   
++---RAMs : 
+	              80K Bit	(8192 X 10 bit)          RAMs := 1     
+	              40K Bit	(4096 X 10 bit)          RAMs := 2     
+	              24K Bit	(512 X 48 bit)          RAMs := 1     
+	              20K Bit	(2048 X 10 bit)          RAMs := 1     
+	              16K Bit	(512 X 32 bit)          RAMs := 1     
+	              512 Bit	(512 X 1 bit)          RAMs := 1     
+	              384 Bit	(8 X 48 bit)          RAMs := 2     
+	              256 Bit	(8 X 32 bit)          RAMs := 2     
+	              128 Bit	(8 X 16 bit)          RAMs := 7     
+	              104 Bit	(8 X 13 bit)          RAMs := 1     
+	               64 Bit	(8 X 8 bit)          RAMs := 1     
+	               48 Bit	(8 X 6 bit)          RAMs := 1     
+	               32 Bit	(8 X 4 bit)          RAMs := 2     
+	               24 Bit	(8 X 3 bit)          RAMs := 1     
+	               16 Bit	(8 X 2 bit)          RAMs := 1     
++---Muxes : 
+	   2 Input   48 Bit        Muxes := 16    
+	   4 Input   48 Bit        Muxes := 1     
+	   6 Input   36 Bit        Muxes := 1     
+	   3 Input   36 Bit        Muxes := 1     
+	   2 Input   36 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 14    
+	   7 Input   32 Bit        Muxes := 1     
+	   5 Input   28 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 20    
+	   8 Input   16 Bit        Muxes := 1     
+	   5 Input   16 Bit        Muxes := 2     
+	  21 Input   16 Bit        Muxes := 1     
+	   4 Input   16 Bit        Muxes := 3     
+	   7 Input   16 Bit        Muxes := 3     
+	   2 Input   13 Bit        Muxes := 25    
+	   2 Input    9 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 74    
+	   3 Input    8 Bit        Muxes := 1     
+	   4 Input    8 Bit        Muxes := 4     
+	   8 Input    8 Bit        Muxes := 2     
+	   5 Input    8 Bit        Muxes := 1     
+	   3 Input    7 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 1     
+	   5 Input    6 Bit        Muxes := 1     
+	   4 Input    6 Bit        Muxes := 1     
+	   6 Input    6 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 4     
+	   2 Input    4 Bit        Muxes := 16    
+	   4 Input    4 Bit        Muxes := 1     
+	  21 Input    4 Bit        Muxes := 1     
+	   3 Input    3 Bit        Muxes := 7     
+	   2 Input    3 Bit        Muxes := 19    
+	   8 Input    3 Bit        Muxes := 1     
+	  21 Input    3 Bit        Muxes := 1     
+	   5 Input    3 Bit        Muxes := 1     
+	  38 Input    3 Bit        Muxes := 1     
+	   4 Input    3 Bit        Muxes := 5     
+	   9 Input    3 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 44    
+	   4 Input    2 Bit        Muxes := 6     
+	   3 Input    2 Bit        Muxes := 5     
+	  22 Input    2 Bit        Muxes := 1     
+	  10 Input    2 Bit        Muxes := 1     
+	   8 Input    2 Bit        Muxes := 3     
+	   2 Input    1 Bit        Muxes := 329   
+	   3 Input    1 Bit        Muxes := 14    
+	   8 Input    1 Bit        Muxes := 22    
+	  21 Input    1 Bit        Muxes := 25    
+	   5 Input    1 Bit        Muxes := 34    
+	   4 Input    1 Bit        Muxes := 43    
+	   7 Input    1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 840 (col length:140)
+BRAMs: 890 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+RAM Pipeline Warning: Read Address Register Found For RAM ip_addr_mem_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM ip_addr_mem_reg. We will not be able to pipeline it. This may degrade performance. 
+INFO: [Synth 8-5784] Optimized 1 bits of RAM "udp_checksum_gen_inst/payload_fifo/mem_reg" due to constant propagation. Old ram width 10 bits, new ram width 9 bits.
+RAM Pipeline Warning: Read Address Register Found For RAM ip_addr_mem_reg. We will not be able to pipeline it. This may degrade performance. 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 1589.551 ; gain = 427.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping	Report
++------------+-------------------------------------+---------------+----------------+
+|Module Name | RTL Object                          | Depth x Width | Implemented As | 
++------------+-------------------------------------+---------------+----------------+
+|ip_complete | ip_inst/ip_eth_tx_inst/hdr_sum_next | 32x1          | LUT            | 
++------------+-------------------------------------+---------------+----------------+
+
+
+Block RAM: Preliminary Mapping	Report (see note below)
++-------------------------------------------------------------------------+--------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name                                                              | RTL Object                                       | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++-------------------------------------------------------------------------+--------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|fpga                                                                     | core_inst/eth_mac_inst/tx_fifo/fifo_inst/mem_reg | 4 K x 10(NO_CHANGE)    | W |   | 4 K x 10(WRITE_FIRST)  |   | R | Port A and B     | 1      | 1      | 
+|fpga                                                                     | core_inst/eth_mac_inst/rx_fifo/fifo_inst/mem_reg | 4 K x 10(NO_CHANGE)    | W |   | 4 K x 10(WRITE_FIRST)  |   | R | Port A and B     | 1      | 1      | 
+|\core_inst/udp_complete_inst /ip_complete_inst/\arp_inst/arp_cache_inst  | ip_addr_mem_reg                                  | 512 x 32(READ_FIRST)   | W |   | 512 x 32(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|\core_inst/udp_complete_inst /udp_inst                                   | udp_checksum_gen_inst/payload_fifo/mem_reg       | 2 K x 10(READ_FIRST)   | W |   | 2 K x 10(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
++-------------------------------------------------------------------------+--------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
+Distributed RAM: Preliminary Mapping	Report (see note below)
++-------------------------------------------------------------------------+-----------------------------------------------+-----------+----------------------+----------------+
+|Module Name                                                              | RTL Object                                    | Inference | Size (Depth x Width) | Primitives     | 
++-------------------------------------------------------------------------+-----------------------------------------------+-----------+----------------------+----------------+
+|\core_inst/udp_complete_inst /ip_complete_inst/\arp_inst/arp_cache_inst  | valid_mem_reg                                 | Implied   | 512 x 1              | RAM128X1D x 4	 | 
+|\core_inst/udp_complete_inst /udp_inst                                   | udp_checksum_gen_inst/udp_length_mem_reg      | Implied   | 8 x 16               | RAM32M x 3	    | 
+|\core_inst/udp_complete_inst /udp_inst                                   | udp_checksum_gen_inst/ip_ttl_mem_reg          | Implied   | 8 x 8                | RAM32M x 2	    | 
+|\core_inst/udp_complete_inst /udp_inst                                   | udp_checksum_gen_inst/ip_source_ip_mem_reg    | Implied   | 8 x 32               | RAM32M x 6	    | 
+|\core_inst/udp_complete_inst /udp_inst                                   | udp_checksum_gen_inst/ip_dest_ip_mem_reg      | Implied   | 8 x 32               | RAM32M x 6	    | 
+|\core_inst/udp_complete_inst /udp_inst                                   | udp_checksum_gen_inst/udp_source_port_mem_reg | Implied   | 8 x 16               | RAM32M x 3	    | 
+|\core_inst/udp_complete_inst /udp_inst                                   | udp_checksum_gen_inst/udp_dest_port_mem_reg   | Implied   | 8 x 16               | RAM32M x 3	    | 
+|\core_inst/udp_complete_inst /udp_inst                                   | udp_checksum_gen_inst/udp_checksum_mem_reg    | Implied   | 8 x 16               | RAM32M x 3	    | 
++-------------------------------------------------------------------------+-----------------------------------------------+-----------+----------------------+----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:43 ; elapsed = 00:00:44 . Memory (MB): peak = 1589.551 ; gain = 427.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 1589.551 ; gain = 427.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping	Report
++-------------------------------------------------------------------------+--------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name                                                              | RTL Object                                       | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++-------------------------------------------------------------------------+--------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|fpga                                                                     | core_inst/eth_mac_inst/tx_fifo/fifo_inst/mem_reg | 4 K x 10(NO_CHANGE)    | W |   | 4 K x 10(WRITE_FIRST)  |   | R | Port A and B     | 1      | 1      | 
+|fpga                                                                     | core_inst/eth_mac_inst/rx_fifo/fifo_inst/mem_reg | 4 K x 10(NO_CHANGE)    | W |   | 4 K x 10(WRITE_FIRST)  |   | R | Port A and B     | 1      | 1      | 
+|\core_inst/udp_complete_inst /ip_complete_inst/\arp_inst/arp_cache_inst  | ip_addr_mem_reg                                  | 512 x 32(READ_FIRST)   | W |   | 512 x 32(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|\core_inst/udp_complete_inst /udp_inst                                   | udp_checksum_gen_inst/payload_fifo/mem_reg       | 2 K x 10(READ_FIRST)   | W |   | 2 K x 10(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
++-------------------------------------------------------------------------+--------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+
+Distributed RAM: Final Mapping	Report
++-------------------------------------------------------------------------+-----------------------------------------------+-----------+----------------------+----------------+
+|Module Name                                                              | RTL Object                                    | Inference | Size (Depth x Width) | Primitives     | 
++-------------------------------------------------------------------------+-----------------------------------------------+-----------+----------------------+----------------+
+|\core_inst/udp_complete_inst /ip_complete_inst/\arp_inst/arp_cache_inst  | valid_mem_reg                                 | Implied   | 512 x 1              | RAM128X1D x 4	 | 
+|\core_inst/udp_complete_inst /udp_inst                                   | udp_checksum_gen_inst/udp_length_mem_reg      | Implied   | 8 x 16               | RAM32M x 3	    | 
+|\core_inst/udp_complete_inst /udp_inst                                   | udp_checksum_gen_inst/ip_ttl_mem_reg          | Implied   | 8 x 8                | RAM32M x 2	    | 
+|\core_inst/udp_complete_inst /udp_inst                                   | udp_checksum_gen_inst/ip_source_ip_mem_reg    | Implied   | 8 x 32               | RAM32M x 6	    | 
+|\core_inst/udp_complete_inst /udp_inst                                   | udp_checksum_gen_inst/ip_dest_ip_mem_reg      | Implied   | 8 x 32               | RAM32M x 6	    | 
+|\core_inst/udp_complete_inst /udp_inst                                   | udp_checksum_gen_inst/udp_source_port_mem_reg | Implied   | 8 x 16               | RAM32M x 3	    | 
+|\core_inst/udp_complete_inst /udp_inst                                   | udp_checksum_gen_inst/udp_dest_port_mem_reg   | Implied   | 8 x 16               | RAM32M x 3	    | 
+|\core_inst/udp_complete_inst /udp_inst                                   | udp_checksum_gen_inst/udp_checksum_mem_reg    | Implied   | 8 x 16               | RAM32M x 3	    | 
++-------------------------------------------------------------------------+-----------------------------------------------+-----------+----------------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_cache_inst/ip_addr_mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:46 ; elapsed = 00:00:48 . Memory (MB): peak = 1589.551 ; gain = 427.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-4442] BlackBox module AURORA0 has unconnected pin gt0_qplllock_in
+CRITICAL WARNING: [Synth 8-4442] BlackBox module AURORA0 has unconnected pin gt0_qpllrefclklost_in
+CRITICAL WARNING: [Synth 8-4442] BlackBox module AURORA0 has unconnected pin pll_not_locked
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:49 ; elapsed = 00:00:51 . Memory (MB): peak = 1589.551 ; gain = 427.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:49 ; elapsed = 00:00:51 . Memory (MB): peak = 1589.551 ; gain = 427.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:50 ; elapsed = 00:00:51 . Memory (MB): peak = 1589.551 ; gain = 427.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:50 ; elapsed = 00:00:51 . Memory (MB): peak = 1589.551 ; gain = 427.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:50 ; elapsed = 00:00:51 . Memory (MB): peak = 1589.551 ; gain = 427.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:50 ; elapsed = 00:00:51 . Memory (MB): peak = 1589.551 ; gain = 427.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-----------------------+----------+
+|      |BlackBox name          |Instances |
++------+-----------------------+----------+
+|1     |clk_wiz_0              |         1|
+|2     |gig_ethernet_pcs_pma_0 |         1|
+|3     |aurora_8b10b_0         |         1|
++------+-----------------------+----------+
+
+Report Cell Usage: 
++------+---------------------+------+
+|      |Cell                 |Count |
++------+---------------------+------+
+|1     |aurora_8b10b         |     1|
+|2     |clk_wiz              |     1|
+|3     |gig_ethernet_pcs_pma |     1|
+|4     |BUFG                 |     1|
+|5     |CARRY4               |   199|
+|6     |LUT1                 |   178|
+|7     |LUT2                 |   261|
+|8     |LUT3                 |   312|
+|9     |LUT4                 |   189|
+|10    |LUT5                 |   301|
+|11    |LUT6                 |   604|
+|12    |MMCME2_BASE          |     1|
+|13    |MUXF7                |     7|
+|14    |RAM128X1D            |     4|
+|15    |RAM32M               |    14|
+|16    |RAMB18E1             |     4|
+|19    |RAMB36E1             |     2|
+|20    |FDCE                 |    11|
+|21    |FDPE                 |    19|
+|22    |FDRE                 |  1767|
+|23    |FDSE                 |    84|
+|24    |IBUF                 |     7|
+|25    |IBUFGDS              |     1|
+|26    |OBUF                 |     8|
++------+---------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:50 ; elapsed = 00:00:51 . Memory (MB): peak = 1589.551 ; gain = 427.766
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 3 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:30 ; elapsed = 00:00:47 . Memory (MB): peak = 1589.551 ; gain = 310.777
+Synthesis Optimization Complete : Time (s): cpu = 00:00:50 ; elapsed = 00:00:51 . Memory (MB): peak = 1589.551 ; gain = 427.766
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.067 . Memory (MB): peak = 1589.551 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 232 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1589.551 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 20 instances were transformed.
+  IBUFGDS => IBUFDS: 1 instance 
+  MMCME2_BASE => MMCME2_ADV: 1 instance 
+  RAM128X1D => RAM128X1D (MUXF7(x2), RAMD64E(x4)): 4 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 14 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+125 Infos, 93 Warnings, 5 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:57 ; elapsed = 00:00:58 . Memory (MB): peak = 1589.551 ; gain = 427.766
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'C:/Users/user/Desktop/mayis/RX_1byte_tlast_enabled/alex.runs/synth_1/fpga.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file fpga_utilization_synth.rpt -pb fpga_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri May 14 23:56:55 2021...
