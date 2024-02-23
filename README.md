@@ -1,2 +1,2 @@
-# diode-andvirtual-distrubted-ethernet
+# diode-andvirtual-distributed-ethernet
 Some Firmware Files
