@@ -1,4 +1,4 @@
-# diode-andvirtual-distributed-ethernet
+# Data diode and Virtual Distributed Ethernet
 This firmware and codes working files required in
 
 Improved Security for LoRaWAN Networks with Unidirectional Network Diode and Virtual Distributed Ethernet.
