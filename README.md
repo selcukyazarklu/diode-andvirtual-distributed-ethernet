@@ -1,9 +1,9 @@
 # Data diode and Virtual Distributed Ethernet
 This firmware and codes working files required in
 
-Improved Security for LoRaWAN Networks with Unidirectional Network Diode and Virtual Distributed Ethernet.
+Improved Security for LoRaWAN Networks in Information Management Systems and Field Communications
 
-Deniz TAŞKIN, Selçuk YAZAR
+Selçuk YAZAR, Deniz Taşkın
 
 
 
